@@ -1,0 +1,84 @@
+.navcontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4em;
+  gap: 10%;
+}
+
+.home {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 5px 5px;
+  color: rgba(12, 217, 224, 0.767);
+}
+
+.navlink {
+  display: inline-block;
+  text-align: center;
+  padding: 1em 2em 1em 2em;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  transition: border-color 0.2s ease;
+}
+
+.navlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active-link {
+  border-color: rgba(12, 217, 224, 0.767);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 1em;
+  width: 1.6em;
+  height: 1.6em;
+  background: none;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navlist {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+
+  .navlist.open {
+    max-height: 300px;
+  }
+
+  .navlist li {
+    text-align: center;
+    margin: 0.5em 0;
+  }
+}
