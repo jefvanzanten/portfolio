@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="projects-container">
         <div className="project-list-container">
           <ul className="project-list">
-            <li className="active">Full Stack Todo</li>
+            <li className="active-project">Full Stack Todo</li>
             <li>Reeksenspel webapp</li>
             <li>School project: OV app Full Stack</li>
             <li>SupplementenManager voor Android</li>
