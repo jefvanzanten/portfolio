@@ -7,7 +7,7 @@ import Home from "./Home/Home";
 export const navItems = [
   { to: "/", name: "Home" },
   { to: "/projects", name: "Projecten" },
-  { to: "/about", name: "Over mij" },
+  // { to: "/about", name: "Over mij" },
   { to: "/contact", name: "Contact" },
 ];
 
@@ -17,7 +17,7 @@ export default function Router() {
       <Routes>
         <Route path={navItems[0].to} element={<Home />} />
         <Route path={navItems[1].to} element={<Projects />} />
-        <Route path={navItems[2].to} element={<About />} />
+        {/* <Route path={navItems[2].to} element={<About />} /> */}
         <Route path={navItems[3].to} element={<Contact />} />
       </Routes>
     </>
