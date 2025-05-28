@@ -1,4 +1,4 @@
-.projects-container {
+.container {
   display: flex;
   flex-direction: row;
   border: 1px solid rgba(12, 217, 224, 0.767);
@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+.project-list li:hover {
+  background-color: rgba(55, 211, 211, 0.451);
+}
+
 .project-details {
   display: flex;
   flex: 3;
@@ -49,5 +53,15 @@
 }
 
 .active-project {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(1, 66, 63);
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  .project-details {
+    display: none;
+  }
 }
