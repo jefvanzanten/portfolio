@@ -5,20 +5,19 @@ import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
 
 export const navItems = [
-  { to: "/", name: "Home" },
-  { to: "/projects", name: "Projecten" },
-  // { to: "/about", name: "Over mij" },
-  { to: "/contact", name: "Contact" },
+  { to: "/", name: "Home", element: <Home /> },
+  { to: "/projects", name: "Projecten", element: <Projects /> },
+  // { to: "/about", name: "Over mij", element: <About /> },
+  { to: "/contact", name: "Contact", element: <Contact /> },
 ];
 
 export default function Router() {
   return (
     <>
       <Routes>
-        <Route path={navItems[0].to} element={<Home />} />
-        <Route path={navItems[1].to} element={<Projects />} />
-        {/* <Route path={navItems[2].to} element={<About />} /> */}
-        <Route path={navItems[3].to} element={<Contact />} />
+        {navItems.map((item) => (
+          <Route key={item.to} path={item.to} element={item.element} />
+        ))}
       </Routes>
     </>
   );

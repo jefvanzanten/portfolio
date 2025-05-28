@@ -8,9 +8,8 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
-  // Vind de actieve tab op basis van de URL
   const activeItem =
-    navItems.find((item) => item.to === location.pathname) ?? navItems[0]; // fallback
+    navItems.find((item) => item.to === location.pathname) ?? navItems[0];
 
   const toggleMenu = () => setIsMenuOpen((o) => !o);
   const closeMenu = () => setIsMenuOpen(false);
