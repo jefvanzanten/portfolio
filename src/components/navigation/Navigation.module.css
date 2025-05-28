@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.pageName {
+  display: none;
+}
+
 nav {
   min-width: 100%;
   display: flex;
@@ -67,7 +71,7 @@ nav {
   }
 
   .navlist.open {
-    max-height: 300px;
+    max-height: 400px;
   }
 
   .navlist .navlink {
@@ -79,5 +83,9 @@ nav {
 
   .navlist .navlink:hover {
     background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .pageName {
+    display: block;
   }
 }
