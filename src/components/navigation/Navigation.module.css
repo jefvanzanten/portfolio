@@ -1,9 +1,9 @@
 .navcontainer {
   display: flex;
   flex-direction: row;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  position: relative;
+  width: 60%;
 }
 
 .pageName {
@@ -51,6 +51,11 @@ nav {
 
 /* Mobile styles */
 @media (max-width: 600px) {
+  .navcontainer {
+    position: relative;
+    width: auto;
+  }
+
   nav {
     padding: 1em;
   }
