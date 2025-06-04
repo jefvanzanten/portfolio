@@ -1,11 +1,11 @@
 .container {
   display: flex;
   flex-direction: row;
-  border: 1px solid rgba(12, 217, 224, 0.767);
   min-width: 100%;
   min-height: 10em;
   box-sizing: border-box;
   flex-wrap: nowrap;
+  padding: 2em 10em 2em 10em;
 }
 
 .project-list-container {
@@ -59,6 +59,7 @@
 @media (max-width: 600px) {
   .container {
     display: block;
+    padding: 1em 1em 1em 1em;
   }
 
   .project-details {

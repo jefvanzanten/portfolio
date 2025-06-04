@@ -19,7 +19,6 @@ export default function Navigation() {
       <nav>
         <Hamburger isOpen={isMenuOpen} onClick={toggleMenu} />
 
-        {/* Logo (and pagetitle for mobile) */}
         <NavLink
           to="/"
           end
@@ -30,7 +29,6 @@ export default function Navigation() {
         </NavLink>
         <div className={styles.pageName}>{activeItem.name}</div>
 
-        {/* Dynamic NavLinks based on array */}
         <div className={`${styles.navlist} ${isMenuOpen ? styles.open : ""}`}>
           {navItems.map((item) => (
             <NavLink
