@@ -21,14 +21,16 @@ export default function Home() {
           className={styles["home-profile-pic"]}
           src="profile_pic_elipse.png"
         />
-        <h1>
-          Hallo, mijn naam is Jef. <br />
-          Ik ben een full-stack- en mobile developer.
-        </h1>
+        <h1>Ik ben een full-stack- en mobile developer.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          imperdiet tincidunt erat id fermentum. Vestibulum rhoncus mauris dui,
-          ac cursus augue consequat{" "}
+          Hey, mijn naam is Jef. Op dit moment volg ik de studie Software
+          Development (HBO Associate Degree).
+          <br />
+          <br />
+          Elke dag programmeer ik in verschillende front-end, back-end en mobile
+          applicaties, omdat ik het belangrijk vind om deze vaardigheden te
+          ontwikkelen en een sterke basis aan te leren. Kijk vooral bij m'n
+          projecten om te zien waar ik nu sta.
         </p>
         <footer>
           {data.map((item, index) => (

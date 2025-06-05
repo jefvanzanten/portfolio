@@ -3,10 +3,9 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 2em;
+  padding: 8em 0;
   box-sizing: border-box;
   min-width: 100%;
-  gap: 2em;
 }
 
 .home-profile-pic {
@@ -19,14 +18,16 @@ h1 {
   font-weight: 400;
   font-size: 1.6rem;
   text-wrap: wrap;
-  padding: 0;
+  padding: 1em 0;
   text-align: center;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 0;
   color: rgba(255, 255, 255, 0.603);
+  text-wrap: wrap;
+  max-width: 32rem;
 }
 
 .inline-link {
@@ -47,6 +48,7 @@ footer {
   gap: 3em;
   justify-content: center;
   padding: 1em 0;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -56,7 +58,6 @@ h2 {
 @media screen and (max-width: 1800px) {
   .home-container {
     padding: 4em;
-    gap: 1em;
   }
 
   .home-profile-pic {
@@ -66,7 +67,7 @@ h2 {
 
   p {
     width: 80%;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   h1 {
@@ -78,8 +79,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
   .home-container {
-    padding: 1em;
-    gap: 1em;
+    padding: 2em 1em;
   }
 
   .home-profile-pic {
