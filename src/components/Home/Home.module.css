@@ -13,7 +13,7 @@
   height: 10rem;
 }
 
-h1 {
+.h1 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
   font-size: 1.6rem;
@@ -22,7 +22,7 @@ h1 {
   text-align: center;
 }
 
-p {
+.p {
   font-size: 1.3rem;
   margin: 0;
   color: rgba(255, 255, 255, 0.603);
@@ -39,7 +39,7 @@ p {
   color: rgba(12, 217, 224, 0.767);
 }
 
-footer {
+.footer {
   position: absolute;
   min-width: 100%;
   bottom: 0;
@@ -51,7 +51,7 @@ footer {
   overflow-x: hidden;
 }
 
-h2 {
+.h2 {
   display: none;
 }
 
@@ -65,12 +65,12 @@ h2 {
     height: 8rem;
   }
 
-  p {
+  .p {
     width: 80%;
     font-size: 0.8rem;
   }
 
-  h1 {
+  .h1 {
     max-width: 20rem;
     padding: 1em;
     font-size: 1.2rem;
@@ -87,13 +87,13 @@ h2 {
     height: 10rem;
   }
 
-  p {
+  .p {
     width: 100%;
     font-size: 1rem;
     line-height: 1.4rem;
   }
 
-  h1 {
+  .h1 {
     font-size: 1.3rem;
     max-width: 22rem;
   }

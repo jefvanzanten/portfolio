@@ -21,18 +21,20 @@ export default function Home() {
           className={styles["home-profile-pic"]}
           src="profile_pic_elipse.png"
         />
-        <h1>Ik ben een full-stack- en mobile developer.</h1>
-        <p>
+        <h1 className={styles.h1}>
+          Ik ben een full-stack- en mobile developer.
+        </h1>
+        <p className={styles.p}>
           Hey, mijn naam is Jef. Op dit moment volg ik de studie Software
           Development (HBO Associate Degree).
           <br />
           <br />
           Elke dag programmeer ik in verschillende front-end, back-end en mobile
           applicaties, omdat ik het belangrijk vind om deze vaardigheden te
-          ontwikkelen en een sterke basis aan te leren. Kijk vooral bij m'n
-          projecten om te zien waar ik nu sta.
+          blijven ontwikkelen en een sterke basis aan te leren. Kijk vooral bij
+          m'n projecten om te zien waar ik nu sta.
         </p>
-        <footer>
+        <footer className={styles.footer}>
           {data.map((item, index) => (
             <span key={index} className={styles["home-tech"]}>
               {item.name}
