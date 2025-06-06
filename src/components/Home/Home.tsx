@@ -22,17 +22,16 @@ export default function Home() {
           src="profile_pic_elipse.png"
         />
         <h1 className={styles.h1}>
-          Ik ben een full-stack- en mobile developer.
+          Ik programmeer full-stack en mobile applicaties.
         </h1>
         <p className={styles.p}>
-          Hey, mijn naam is Jef. Op dit moment volg ik de studie Software
+          Hey, mijn naam is Jef. Momenteel volg ik de studie Software
           Development (HBO Associate Degree).
           <br />
           <br />
-          Elke dag programmeer ik in verschillende front-end, back-end en mobile
-          applicaties, omdat ik het belangrijk vind om deze vaardigheden te
-          blijven ontwikkelen en een sterke basis aan te leren. Kijk vooral bij
-          m'n projecten om te zien waar ik nu sta.
+          Ik wissel elke keer met programmeren tussen mobile, front- en back-end
+          projecten, zodat mijn kennis en vaardigheden op elk vlak blijven
+          ontwikkelen. Kijk vooral bij m'n projecten om te zien waar ik nu sta.
         </p>
         <footer className={styles.footer}>
           {data.map((item, index) => (

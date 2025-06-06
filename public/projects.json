@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Todo Backend",
+    "description": "This is a description of Project A.",
+    "url": "https://github.com/JeffreyvnZanten/todobackend",
+    "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
+    "lastUpdated": "2025-05-26"
+  },
+  {
+    "name": "Fase 2 OV App",
+    "description": "This is a description of Project B.",
+    "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
+    "stack": ["TypeScript", "Express", "SQLite"],
+    "lastUpdated": "2025-03-13"
+  },
+  {
+    "name": "Portfolio",
+    "description": "Description van frontend project",
+    "url": "https://github.com/JeffreyvnZanten/portfolio/",
+    "stack": ["React", "TypeScript", "React Router"],
+    "lastUpdated": "2025-06-06"
+  },
+  {
+    "name": "Fase 2 OV App",
+    "description": "Description van frontend project",
+    "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
+    "stack": ["React", "TypeScript"],
+    "lastUpdated": "2025-03-13"
+  },
+  {
+    "name": "Reeksenspel",
+    "description": "Description van frontend project",
+    "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
+    "stack": ["React", "TypeScript", "Tailwind CSS"],
+    "lastUpdated": "2025-04-22"
+  },
+  {
+    "name": "Todo - Mobile App",
+    "description": "Description van mobile app",
+    "url": "https://github.com/JeffreyvnZanten/TodoRN",
+    "stack": [
+      "React Native",
+      "TypeScript",
+      "Expo",
+      "Better-Auth",
+      "TanStack Query"
+    ],
+    "lastUpdated": "2025-05-26"
+  },
+  {
+    "name": "SupplementTracker - Android",
+    "description": "Description van mobile app",
+    "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
+    "stack": ["Kotlin", "Compose Multiplatform", "Room"],
+    "lastUpdated": "2024-11-02"
+  }
+]
