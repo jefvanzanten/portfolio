@@ -29,7 +29,7 @@ export default function Home() {
           Development (HBO Associate Degree).
           <br />
           <br />
-          Ik wissel elke keer met programmeren tussen mobile, front- en back-end
+          Ik wissel met programmeren tussen mobile, front- en back-end
           projecten, zodat mijn kennis en vaardigheden op elk vlak blijven
           ontwikkelen. Kijk vooral bij m'n projecten om te zien waar ik nu sta.
         </p>
