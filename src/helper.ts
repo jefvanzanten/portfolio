@@ -7,5 +7,5 @@ export function getRecentProjects(projects: Project[]) {
     return dateB.getTime() - dateA.getTime();
   });
 
-  return recentProjects.slice(0, 3);
+  return recentProjects.slice(0, 4);
 }

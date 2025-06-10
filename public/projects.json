@@ -11,13 +11,15 @@
       "Better-Auth",
       "Zod"
     ],
+    "category": "Fullstack",
     "lastUpdated": "2025-06-10"
   },
   {
-    "name": "Todo Backend",
+    "name": "Todo - Backend",
     "description": "This is a description of Project A.",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
     "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
+    "category": "Backend",
     "lastUpdated": "2025-05-26"
   },
   {
@@ -25,6 +27,7 @@
     "description": "This is a description of Project B.",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],
+    "category": "Backend",
     "lastUpdated": "2025-03-13"
   },
   {
@@ -32,13 +35,15 @@
     "description": "Description van frontend project",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
     "stack": ["React", "TypeScript", "React Router"],
-    "lastUpdated": "2025-06-06"
+    "category": "Frontend",
+    "lastUpdated": "2025-06-10"
   },
   {
     "name": "Fase 2 OV App - Frontend",
     "description": "Description van frontend project",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
     "stack": ["React", "TypeScript"],
+    "category": "Frontend",
     "lastUpdated": "2025-03-13"
   },
   {
@@ -46,7 +51,16 @@
     "description": "Description van frontend project",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["React", "TypeScript", "Tailwind CSS"],
+    "category": "Frontend",
     "lastUpdated": "2025-04-22"
+  },
+  {
+    "name": "Todo - Server Side Rendering",
+    "description": "Description van frontend project",
+    "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
+    "stack": ["Nextjs", "React", "TypeScript"],
+    "category": "Fullstack",
+    "lastUpdated": "2025-05-22"
   },
   {
     "name": "Todo - Mobile App",
@@ -59,13 +73,15 @@
       "Better-Auth",
       "TanStack Query"
     ],
-    "lastUpdated": "2025-05-26"
+    "category": "Mobile",
+    "lastUpdated": "2025-06-10"
   },
   {
     "name": "SupplementTracker - Android",
     "description": "Description van mobile app",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
     "stack": ["Kotlin", "Compose Multiplatform", "Room"],
+    "category": "Mobile",
     "lastUpdated": "2024-11-02"
   }
 ]

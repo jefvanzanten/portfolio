@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import styles from "./Home.module.css";
 
 const data = [
@@ -29,9 +30,13 @@ export default function Home() {
           Development (HBO Associate Degree).
           <br />
           <br />
-          Ik wissel met programmeren tussen mobile, front- en back-end
+          Ik wissel met programmeren tussen frontend, backend en mobile
           projecten, zodat mijn kennis en vaardigheden op elk vlak blijven
-          ontwikkelen. Kijk vooral bij m'n projecten om te zien waar ik nu sta.
+          ontwikkelen. Kijk vooral bij m'n{" "}
+          <Link className={styles["inline-link"]} to={"/projects"}>
+            projecten
+          </Link>{" "}
+          om te zien waar ik nu sta.
         </p>
         <footer className={styles.footer}>
           {data.map((item, index) => (
