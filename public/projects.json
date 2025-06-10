@@ -1,5 +1,19 @@
 [
   {
+    "name": "Inventarius",
+    "description": "Inventarisatie van alle producten in huis voor voorraad en datum check.",
+    "url": "https://github.com/JeffreyvnZanten/inventarius",
+    "stack": [
+      "TypeScript",
+      "NextJS",
+      "Drizzle",
+      "SQLite",
+      "Better-Auth",
+      "Zod"
+    ],
+    "lastUpdated": "2025-06-10"
+  },
+  {
     "name": "Todo Backend",
     "description": "This is a description of Project A.",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
@@ -7,7 +21,7 @@
     "lastUpdated": "2025-05-26"
   },
   {
-    "name": "Fase 2 OV App",
+    "name": "Fase 2 OV App - Backend",
     "description": "This is a description of Project B.",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],
@@ -21,7 +35,7 @@
     "lastUpdated": "2025-06-06"
   },
   {
-    "name": "Fase 2 OV App",
+    "name": "Fase 2 OV App - Frontend",
     "description": "Description van frontend project",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
     "stack": ["React", "TypeScript"],
