@@ -16,7 +16,7 @@ export default function Navigation() {
 
   return (
     <div className={styles.navcontainer}>
-      <nav>
+      <nav className={styles.nav}>
         <Hamburger isOpen={isMenuOpen} onClick={toggleMenu} />
 
         <NavLink

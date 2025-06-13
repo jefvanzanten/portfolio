@@ -4,19 +4,25 @@
   margin: 0 auto;
   padding: 0;
   min-width: 100%;
+  z-index: 1000;
+  background-color: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
 }
 
 .pageName {
   display: none;
 }
 
-nav {
+.nav {
   min-width: 100%;
   display: flex;
   flex-direction: row;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   padding: 0 2em;
+  align-items: center;
 }
 
 .logo {
@@ -62,7 +68,7 @@ nav {
     width: auto;
   }
 
-  nav {
+  .nav {
     padding: 1em;
     align-items: center;
     text-align: center;

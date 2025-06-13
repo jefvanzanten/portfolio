@@ -1,4 +1,3 @@
-import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import Router from "./components/Router";
 

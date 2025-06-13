@@ -23,7 +23,7 @@ export default function Home() {
           src="profile_pic_elipse.png"
         />
         <h1 className={styles.h1}>
-          Ik programmeer full-stack en mobile applicaties.
+          Ik programmeer fullstack en mobile applicaties.
         </h1>
         <p className={styles.p}>
           Hey, mijn naam is Jef. Momenteel volg ik de studie Software
@@ -38,14 +38,14 @@ export default function Home() {
           </Link>{" "}
           om te zien waar ik nu sta.
         </p>
-        <footer className={styles.footer}>
-          {data.map((item, index) => (
-            <span key={index} className={styles["home-tech"]}>
-              {item.name}
-            </span>
-          ))}
-        </footer>
       </div>
+      {/* <footer className={styles.footer}>
+        {data.map((item, index) => (
+          <span key={index} className={styles["home-tech"]}>
+            {item.name}
+          </span>
+        ))}
+      </footer> */}
     </main>
   );
 }

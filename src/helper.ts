@@ -7,5 +7,7 @@ export function getRecentProjects(projects: Project[]) {
     return dateB.getTime() - dateA.getTime();
   });
 
-  return recentProjects.slice(0, 4);
+  const result = recentProjects.slice(0, 4);
+  console.log("Recent projects:", result);
+  return result;
 }
