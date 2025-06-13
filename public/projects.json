@@ -18,6 +18,7 @@
     "name": "Todo - Backend",
     "description": [
       "Met dit project heb ik m'n eerste REST API met authenticatie gemaakt. ",
+      "\n\n",
       "Het maken van todo's is alleen mogelijk met het juiste account. ",
       "De REST API wordt gebruikt voor de mobile app. "
     ],
