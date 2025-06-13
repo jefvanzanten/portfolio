@@ -38,7 +38,11 @@
   },
   {
     "name": "Portfolio",
-    "description": "Dit is het project van de website waar je je nu op bevindt. ",
+    "description": [
+      "Dit is het project van de website waar je je nu op bevindt. ",
+      "\n\n",
+      "Je kunt hier lezen over hoe de site is opgebouwd en welke technieken zijn toegepast."
+    ],
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
     "stack": ["React", "TypeScript", "React Router"],
     "category": "Frontend",
