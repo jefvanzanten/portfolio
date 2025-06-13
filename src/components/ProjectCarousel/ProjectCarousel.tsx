@@ -8,7 +8,6 @@ type ProjectCarouselProps = {
 };
 
 export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
-  // track enkel de index
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentProject = projects[currentIndex];
 

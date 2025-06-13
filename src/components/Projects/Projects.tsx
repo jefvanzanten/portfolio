@@ -54,7 +54,6 @@ export default function Projects() {
     <main className={styles.main}>
       <section className={styles.section}>
         <h1 className={styles.h1}>Recente Projecten</h1>
-        {/* <div className={styles["recent-projects"]}></div> */}
         <ProjectCarousel projects={getRecentProjects(projects)} />
       </section>
       <section className={styles.section}>

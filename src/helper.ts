@@ -8,6 +8,6 @@ export function getRecentProjects(projects: Project[]) {
   });
 
   const result = recentProjects.slice(0, 4);
-  console.log("Recent projects:", result);
+  // console.log("Recent projects:", result);
   return result;
 }
