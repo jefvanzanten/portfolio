@@ -28,6 +28,7 @@
 .description {
   font-size: 1.2rem;
   white-space: pre-wrap;
+  padding: 0 1em 1em 1em;
 }
 
 @media (min-width: 1024px) {
