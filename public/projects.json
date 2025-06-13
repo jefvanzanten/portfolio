@@ -16,7 +16,11 @@
   },
   {
     "name": "Todo - Backend",
-    "description": "This is a description of Project A.",
+    "description": [
+      "Met dit project heb ik m'n eerste REST API met authenticatie gemaakt. ",
+      "Het maken van todo's is alleen mogelijk met het juiste account. ",
+      "De REST API wordt gebruikt voor de mobile app. "
+    ],
     "url": "https://github.com/JeffreyvnZanten/todobackend",
     "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
     "category": "Backend",
@@ -24,7 +28,9 @@
   },
   {
     "name": "Fase 2 OV App - Backend",
-    "description": "This is a description of Project B.",
+    "description": [
+      "Dit is de backend van de OV applicatie van het project van de 2e fase. "
+    ],
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],
     "category": "Backend",
@@ -32,7 +38,7 @@
   },
   {
     "name": "Portfolio",
-    "description": "Description van frontend project",
+    "description": "Dit is het project van de website waar je je nu op bevindt. ",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
     "stack": ["React", "TypeScript", "React Router"],
     "category": "Frontend",
@@ -40,7 +46,10 @@
   },
   {
     "name": "Fase 2 OV App - Frontend",
-    "description": "Description van frontend project",
+    "description": [
+      "Dit is de frontend van de OV applicatie van het project van de 2e fase. ",
+      "Deze frontend is geoptimaliseerd voor blinde mensen en is volledig toegankelijk. "
+    ],
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
     "stack": ["React", "TypeScript"],
     "category": "Frontend",
@@ -64,7 +73,13 @@
   },
   {
     "name": "Todo - Mobile App",
-    "description": "Description van mobile app",
+    "description": [
+      "Dit is de mobile app die gebruik maakt van de REST API van de Todo backend. ",
+      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
+      "\n\n",
+      "De app maakt gebruik van Better-Auth voor authenticatie door de gegevens uit de .env te lezen en TanStack Query voor data fetching.",
+      "Deze data is gecached en wordt pas geupdate als de data uit de fetch niet meer actueel is. "
+    ],
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
     "stack": [
       "React Native",
