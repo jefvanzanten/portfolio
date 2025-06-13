@@ -40,7 +40,6 @@
 }
 
 .recent-projects {
-  border: 1px solid rgb(204, 204, 204);
   width: 100%;
   height: 20vh;
 }
@@ -58,7 +57,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgba(12, 217, 224, 0.767);
   padding: 1em 0;
   cursor: pointer;
   height: 16vh;
