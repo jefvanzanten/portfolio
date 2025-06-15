@@ -18,7 +18,9 @@ export default function Home() {
   return (
     <main>
       <div className={styles["home-container"]}>
-        <h1 className={styles.h1}>Ik maak fullstack en mobile apps</h1>
+        <h1 className={styles.h1}>
+          Ik ben een fullstack web en mobile app developer
+        </h1>
         <p className={styles.p}>
           Hey, mijn naam is Jef. Momenteel volg ik de studie Software
           Development (HBO Associate Degree).

@@ -1,15 +1,16 @@
 import styles from "./SocialLink.module.css";
 
 type SocialLinkProps = {
+  name: string;
   url: string;
   iconUrl: string;
 };
 
-export default function SocialLink({ url, iconUrl }: SocialLinkProps) {
+export default function SocialLink({ name, url, iconUrl }: SocialLinkProps) {
   return (
     <a className={styles.socialContainer} href={url}>
       <img className={styles.logo} src={iconUrl} />
-      <p>{url}</p>
+      <p>{name}</p>
     </a>
   );
 }

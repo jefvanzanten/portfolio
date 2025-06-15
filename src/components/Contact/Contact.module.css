@@ -1,9 +1,19 @@
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 2em;
   gap: 2em;
   margin: 0;
   box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+    align-items: start;
+  }
 }
