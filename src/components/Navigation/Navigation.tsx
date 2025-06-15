@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router";
+import { matchPath, NavLink, useLocation } from "react-router";
 import { useState } from "react";
 import styles from "./Navigation.module.css";
 import Hamburger from "../Hamburger/Hamburger";
@@ -9,7 +9,12 @@ export default function Navigation() {
   const location = useLocation();
 
   const activeItem =
-    navItems.find((item) => item.to === location.pathname) ?? navItems[0];
+    navItems.find((item) =>
+      matchPath(
+        { path: item.to === "/" ? "/" : `${item.to}/*`, end: item.to === "/" },
+        location.pathname
+      )
+    ) ?? navItems[0];
 
   const toggleMenu = () => setIsMenuOpen((o) => !o);
   const closeMenu = () => setIsMenuOpen(false);
@@ -27,7 +32,9 @@ export default function Navigation() {
         >
           JEFVANZANTEN.DEV
         </NavLink>
-        <div className={styles.pageName}>{activeItem.name}</div>
+        <NavLink to={activeItem.to} className={styles.pageName}>
+          {activeItem.name}
+        </NavLink>
 
         <div className={`${styles.navlist} ${isMenuOpen ? styles.open : ""}`}>
           {navItems.map((item) => (
