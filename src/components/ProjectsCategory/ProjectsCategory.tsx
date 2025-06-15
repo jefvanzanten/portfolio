@@ -20,7 +20,7 @@ export default function ProjectCategory() {
         <h1 className={styles.h1}>{capitalizeFirstLetter(category ?? "")}</h1>
         {filtered.map((project) => (
           <NavLink
-            to={`/project/${project.id as number}`}
+            to={`/projects/${category}/${project.id as number}`}
             className={styles.container}
             key={project.name}
           >
