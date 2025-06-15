@@ -39,13 +39,13 @@ export default function Home() {
           om te zien waar ik nu sta.
         </p>
       </div>
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         {data.map((item, index) => (
           <span key={index} className={styles["home-tech"]}>
             {item.name}
           </span>
         ))}
-      </footer> */}
+      </footer>
     </main>
   );
 }

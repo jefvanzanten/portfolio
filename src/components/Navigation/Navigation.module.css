@@ -64,7 +64,7 @@
 
 @media (max-width: 600px) {
   .navcontainer {
-    position: relative;
+    position: sticky;
     width: auto;
   }
 
