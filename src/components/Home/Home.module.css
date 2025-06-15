@@ -2,13 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  padding: 8em 0;
+  padding: 2em 0;
   box-sizing: border-box;
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   z-index: 0;
   overflow: hidden;
+  top: -3em;
+  position: relative;
 }
 
 .home-profile-pic {
@@ -19,7 +22,7 @@
 .h1 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-wrap: wrap;
   padding: 1em 0;
   text-align: center;
@@ -49,7 +52,7 @@
   justify-content: center;
   padding: 1em 0;
   position: sticky;
-  bottom: 0;
+  bottom: 1em;
   overflow-x: auto;
 }
 
@@ -69,12 +72,12 @@
 
   .p {
     width: 80%;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .h1 {
     padding: 1em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -95,11 +98,11 @@
   }
 
   .h1 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   .footer {
     justify-content: start;
-    padding: 1em;
+    padding: 1em 2em;
   }
 }

@@ -18,13 +18,7 @@ export default function Home() {
   return (
     <main>
       <div className={styles["home-container"]}>
-        <img
-          className={styles["home-profile-pic"]}
-          src="profile_pic_elipse.png"
-        />
-        <h1 className={styles.h1}>
-          Ik programmeer fullstack en mobile applicaties.
-        </h1>
+        <h1 className={styles.h1}>Ik maak fullstack en mobile apps</h1>
         <p className={styles.p}>
           Hey, mijn naam is Jef. Momenteel volg ik de studie Software
           Development (HBO Associate Degree).
