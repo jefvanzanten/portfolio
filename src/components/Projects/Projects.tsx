@@ -6,6 +6,7 @@ import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 import useProjects from "../../hooks/useProjects";
 
 export type Project = {
+  id: number;
   name: string;
   description: string;
   url: string;

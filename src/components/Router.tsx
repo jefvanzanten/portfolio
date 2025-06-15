@@ -4,6 +4,7 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
 import ProjectsCategory from "./ProjectsCategory/ProjectsCategory";
+import ProjectPage from "./ProjectPage/ProjectPage";
 
 export const navItems = [
   { to: "/", name: "Home", element: <Home /> },
@@ -51,6 +52,7 @@ export default function Router() {
           <Route key={item.to} path={item.to} element={item.element} />
         ))} */}
         <Route path="/projects/:category" element={<ProjectsCategory />} />
+        <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
     </>
   );
