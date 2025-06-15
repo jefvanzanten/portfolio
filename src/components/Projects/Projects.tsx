@@ -3,6 +3,7 @@ import styles from "./Projects.module.css";
 import { getRecentProjects } from "../../helper";
 import { Link } from "react-router";
 import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
+import useProjects from "../../hooks/useProjects";
 
 export type Project = {
   name: string;
@@ -14,8 +15,7 @@ export type Project = {
 };
 
 export default function Projects() {
-  const [projects, setProjects] = useState<Project[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { loading, projects } = useProjects();
 
   const frontendProjects = projects.filter(
     (item) => item.category === "Frontend"
@@ -27,24 +27,6 @@ export default function Projects() {
   const fullStackProjects = projects.filter(
     (item) => item.category === "Fullstack"
   );
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      try {
-        const data = await fetch("projects.json");
-        if (data.ok) {
-          const projectsData = await data.json();
-          setProjects(projectsData);
-        }
-      } catch (error) {
-        console.error("Error fetching projects:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchProjects();
-  }, []);
 
   if (loading) {
     return <div>Loading...</div>;

@@ -3,7 +3,7 @@ import Projects from "./Projects/Projects";
 // import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
-import ProjectCategory from "./ProjectsCategory/ProjectsCategory";
+import ProjectsCategory from "./ProjectsCategory/ProjectsCategory";
 
 export const navItems = [
   { to: "/", name: "Home", element: <Home /> },
@@ -12,33 +12,33 @@ export const navItems = [
   { to: "/contact", name: "Contact", element: <Contact /> },
 ];
 
-export const projectNavItems = [
-  {
-    to: "/projects/recent",
-    name: "Recent",
-    element: <ProjectCategory category="Recent" />,
-  },
-  {
-    to: "/projects/frontend",
-    name: "Frontend",
-    element: <ProjectCategory category="Frontend" />,
-  },
-  {
-    to: "/projects/backend",
-    name: "Backend",
-    element: <ProjectCategory category="Backend" />,
-  },
-  {
-    to: "/projects/fullstack",
-    name: "Fullstack",
-    element: <ProjectCategory category="Fullstack" />,
-  },
-  {
-    to: "/projects/mobile",
-    name: "Mobile",
-    element: <ProjectCategory category="Mobile" />,
-  },
-];
+// export const projectNavItems = [
+//   {
+//     to: "/projects/recent",
+//     name: "Recent",
+//     element: <ProjectCategory category="Recent" />,
+//   },
+//   {
+//     to: "/projects/frontend",
+//     name: "Frontend",
+//     element: <ProjectCategory category="Frontend" />,
+//   },
+//   {
+//     to: "/projects/backend",
+//     name: "Backend",
+//     element: <ProjectCategory category="Backend" />,
+//   },
+//   {
+//     to: "/projects/fullstack",
+//     name: "Fullstack",
+//     element: <ProjectCategory category="Fullstack" />,
+//   },
+//   {
+//     to: "/projects/mobile",
+//     name: "Mobile",
+//     element: <ProjectCategory category="Mobile" />,
+//   },
+// ];
 
 export default function Router() {
   return (
@@ -47,9 +47,10 @@ export default function Router() {
         {navItems.map((item) => (
           <Route key={item.to} path={item.to} element={item.element} />
         ))}
-        {projectNavItems.map((item) => (
+        {/* {projectNavItems.map((item) => (
           <Route key={item.to} path={item.to} element={item.element} />
-        ))}
+        ))} */}
+        <Route path="/projects/:category" element={<ProjectsCategory />} />
       </Routes>
     </>
   );
