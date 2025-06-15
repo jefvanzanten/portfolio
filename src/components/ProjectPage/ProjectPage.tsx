@@ -9,10 +9,16 @@ export default function ProjectPage() {
     return <div>Loading...</div>;
   }
 
+  const project = projects.find((p) => p.id.toString() === id);
+
+  if (!project) {
+    return <div>Project niet gevonden</div>;
+  }
+
   return (
     <div>
-      <h1>{projects[id].name}</h1>
-      <p>{projects[id].description}</p>
+      <h1>{project.name}</h1>
+      <p>{project.description}</p>
     </div>
   );
 }
