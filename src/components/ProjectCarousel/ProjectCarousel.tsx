@@ -26,6 +26,14 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
       <div className={styles["project-card"]}>
         <h1 className={styles.h1}>{currentProject.name}</h1>
         <p className={styles.description}>{currentProject.description}</p>
+        {/* <div className={styles["stack-container"]}>
+          {currentProject.stack.map((stack, index) => (
+            <span key={index} className={styles.stack}>
+              {stack}
+            </span>
+          ))}
+        </div> */}
+        <button className={styles.button}>Meer info</button>
       </div>
 
       {hasNext && (

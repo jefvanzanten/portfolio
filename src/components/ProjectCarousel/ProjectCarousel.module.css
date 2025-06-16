@@ -4,6 +4,8 @@
   width: 100%;
   min-height: 30vh;
   border: 1px solid rgba(12, 217, 224, 0.767);
+  /* padding: 1em; */
+  box-sizing: border-box;
 }
 
 .project-card {
@@ -11,28 +13,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  padding: 1em 0;
 }
 
 .h1 {
   padding: 1em 0;
 }
 
-.button {
-  flex: 0 0 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(12, 217, 224, 0.452);
-}
-
 .description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   white-space: pre-wrap;
   padding: 0 1em 1em 1em;
 }
 
-@media (min-width: 1024px) {
-  .button {
-    flex: 0 0 5%;
-  }
+.stack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  /* padding: 2vh 1em; */
+  overflow-x: auto;
+}
+
+.button {
+  padding: 1em 3em;
+  border-radius: 0.5em;
+  background-color: rgba(12, 217, 224, 0.452);
+  color: white;
 }

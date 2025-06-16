@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import styles from "./Home.module.css";
 
 const data = [
@@ -28,12 +28,16 @@ export default function Home() {
           <br />
           Ik wissel met programmeren tussen frontend, backend en mobile
           projecten, zodat mijn kennis en vaardigheden op elk vlak blijven
-          ontwikkelen. Kijk vooral bij m'n{" "}
-          <Link className={styles["inline-link"]} to={"/projects"}>
-            projecten
-          </Link>{" "}
-          om te zien waar ik nu sta.
+          ontwikkelen.
         </p>
+        <div className={styles["button-container"]}>
+          <NavLink to="/projects" className={styles.button}>
+            Bekijk projecten
+          </NavLink>
+          <NavLink to="/contact" className={styles.button}>
+            Neem contact
+          </NavLink>
+        </div>
       </div>
       <footer className={styles.footer}>
         {data.map((item, index) => (

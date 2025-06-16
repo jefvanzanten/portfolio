@@ -25,7 +25,7 @@
       "Je kunt hier lezen over hoe de site is opgebouwd en welke technieken zijn toegepast."
     ],
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
-    "stack": ["React", "TypeScript", "React Router"],
+    "stack": ["React", "CSS", "TypeScript", "React Router", "JSON"],
     "category": "Frontend",
     "lastUpdated": "2025-06-13"
   },

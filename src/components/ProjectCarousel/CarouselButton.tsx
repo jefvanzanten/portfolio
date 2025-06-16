@@ -1,4 +1,4 @@
-import styles from "./ProjectCarousel.module.css";
+import styles from "./CarouselButton.module.css";
 
 type CarouselButtonProps = {
   symbol: string;

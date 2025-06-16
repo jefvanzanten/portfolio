@@ -10,7 +10,7 @@
   min-height: 90vh;
   z-index: 0;
   overflow: hidden;
-  top: -3em;
+  top: -10vh;
   position: relative;
 }
 
@@ -34,6 +34,23 @@
   color: rgba(255, 255, 255, 0.603);
   text-wrap: wrap;
   max-width: 32rem;
+  padding: 0 1em;
+}
+
+.button-container {
+  display: none;
+}
+
+.button {
+  padding: 0.8em 1.6em;
+  border: rgba(12, 217, 224, 0.767) solid 1px;
+  border-radius: 0.5em;
+  background-color: rgba(12, 217, 224, 0.452);
+  color: white;
+  font-size: 1rem;
+  font-family: "JetBrains Mono";
+  top: 2em;
+  position: relative;
 }
 
 .inline-link {
@@ -104,5 +121,13 @@
   .footer {
     justify-content: start;
     padding: 1em 2em;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
   }
 }

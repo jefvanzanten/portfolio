@@ -10,7 +10,7 @@ export default function Contact() {
         url={"https://www.linkedin.com/in/jefvanzanten"}
       />
       <SocialLink
-        name="Mail"
+        name="j.van.zanten@gmail.com"
         iconUrl={"mail.svg"}
         url={"mailto:j.van.zanten@gmail.com"}
       />
