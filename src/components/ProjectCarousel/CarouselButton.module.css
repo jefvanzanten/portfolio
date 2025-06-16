@@ -1,5 +1,5 @@
 .button {
-  flex: 0 0 10%;
+  flex: 0 0 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,8 +8,9 @@
   border: rgba(12, 217, 224, 0.767) solid 1px;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .button {
-    flex: 0 0 2%;
+    flex: 0 0 5%;
+    padding: 0.4em;
   }
 }

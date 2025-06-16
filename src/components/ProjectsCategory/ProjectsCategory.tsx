@@ -26,6 +26,7 @@ export default function ProjectCategory() {
           >
             <h2 className={styles.h2}>{project.name}</h2>
             <p>{project.description}</p>
+            <button className={styles.button}>Meer info</button>
           </Link>
         ))}
       </section>
