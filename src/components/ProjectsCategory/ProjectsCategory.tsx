@@ -18,17 +18,19 @@ export default function ProjectCategory() {
     <main className={styles.main}>
       <section className={styles.section}>
         <h1 className={styles.h1}>{capitalizeFirstLetter(category ?? "")}</h1>
-        {filtered.map((project) => (
-          <Link
-            to={`/projects/${category}/${project.id as number}`}
-            className={styles.container}
-            key={project.name}
-          >
-            <h2 className={styles.h2}>{project.name}</h2>
-            <p>{project.description}</p>
-            <button className={styles.button}>Meer info</button>
-          </Link>
-        ))}
+        <div className={styles["project-category-list"]}>
+          {filtered.map((project) => (
+            <Link
+              to={`/projects/${category}/${project.id as number}`}
+              className={styles.container}
+              key={project.name}
+            >
+              <h2 className={styles.h2}>{project.name}</h2>
+              <p>{project.description}</p>
+              <button className={styles.button}>Meer info</button>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   );

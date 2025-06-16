@@ -4,6 +4,8 @@
   width: 100%;
   min-height: 30vh;
   border: 1px solid rgba(12, 217, 224, 0.767);
+  /* background-color: rgba(12, 217, 224, 0.541); */
+  border-radius: 1em;
   /* padding: 1em; */
   box-sizing: border-box;
 }
