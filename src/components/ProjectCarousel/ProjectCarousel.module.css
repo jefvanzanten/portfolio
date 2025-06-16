@@ -38,6 +38,7 @@
 
 .button {
   padding: 1em 3em;
+  border: rgba(12, 217, 224, 0.767) solid 1px;
   border-radius: 0.5em;
   background-color: rgba(12, 217, 224, 0.452);
   color: white;
