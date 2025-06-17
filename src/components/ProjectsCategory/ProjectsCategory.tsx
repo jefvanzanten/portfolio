@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router";
 import useProjects from "../../hooks/useProjects";
 import styles from "./ProjectsCategory.module.css";
 import { capitalizeFirstLetter } from "../../helper";
+import NavButton from "../NavButton/NavButton";
 
 export default function ProjectCategory() {
   const { category } = useParams();
@@ -27,7 +28,7 @@ export default function ProjectCategory() {
             >
               <h2 className={styles.h2}>{project.name}</h2>
               <p>{project.description}</p>
-              <button className={styles.button}>Meer info</button>
+              <NavButton title="Meer info" />
             </Link>
           ))}
         </div>

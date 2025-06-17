@@ -3,6 +3,7 @@ import styles from "./ProjectCarousel.module.css";
 import { Project } from "../Projects/Projects";
 import CarouselButton from "./CarouselButton";
 import { Link } from "react-router";
+import NavButton from "../NavButton/NavButton";
 
 type ProjectCarouselProps = {
   projects: Project[];
@@ -39,7 +40,7 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
             </span>
             ))}
             </div> */}
-        <button className={styles.button}>Meer info</button>
+        <NavButton title="Meer info" />
       </Link>
 
       {hasNext && (

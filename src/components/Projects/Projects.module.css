@@ -25,11 +25,6 @@
   text-align: center;
 }
 
-.recent-projects {
-  width: 100%;
-  min-height: 20vh;
-}
-
 .project-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -41,10 +36,6 @@
 @media screen and (max-width: 1800px) {
   .section {
     width: 60%;
-  }
-
-  .recent-projects {
-    min-height: 30vh;
   }
 
   .h1 {
@@ -60,10 +51,6 @@
 
   .section {
     width: 90%;
-  }
-
-  .recent-projects {
-    min-height: 20vh;
   }
 
   .project-list {

@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router";
 import styles from "./Home.module.css";
+import NavButton from "../NavButton/NavButton";
 
 const data = [
   { name: "React" },
@@ -31,12 +32,8 @@ export default function Home() {
           ontwikkelen.
         </p>
         <div className={styles["button-container"]}>
-          <NavLink to="/projects" className={styles.button}>
-            Bekijk projecten
-          </NavLink>
-          <NavLink to="/contact" className={styles.button}>
-            Neem contact
-          </NavLink>
+          <NavButton title="Bekijk projecten" to="/projects" />
+          <NavButton title="Neem contact" to="/contact" />
         </div>
       </div>
       <footer className={styles.footer}>
