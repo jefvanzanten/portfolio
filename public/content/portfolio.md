@@ -1,11 +1,17 @@
 # Portfolio
 
-## Index
+- Doel
+- UI/UX, design patterns en codearchitectuur
+- Onderbouwing techstack
 
-- Onderbouwing Techstack
-- Test
-- Test
+## Doel
 
-## Onderbouwing Techstack
+Deze applicatie is gemaakt met als doel om de productopbouw, design en code keuzes toe te lichten.
 
-Dit is de losse pagina voor het portfolio project
+## UI/UX, design patterns en codearchitectuur
+
+Lorem ipsum..
+
+## Onderbouwing techstack
+
+Lorem ipsum..

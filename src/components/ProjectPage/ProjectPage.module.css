@@ -1,29 +1,51 @@
+.section {
+  width: 40%;
+  margin: 0 auto;
+}
+
 .markdown-body {
   font-family: "Inter", sans-serif;
   /* line-height: 1.6; */
   color: #cfcfcf;
-  padding: 1em 2em;
+  padding: 1em;
 }
 
 .markdown-body h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
   padding: 0.5em 0;
+  border: 2px solid rgba(12, 217, 224, 0.767);
+  border-radius: 0.4em;
+  text-align: center;
 }
 
 .markdown-body h2 {
-  font-size: 1.75rem;
-  padding: 1em 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 2px solid rgba(12, 217, 224, 0.767);
+  border-radius: 0.4em;
+  text-align: center;
 }
 
 .markdown-body p {
-  /* padding: 1em 0; */
+  padding: 1em 0.5em;
+  font-size: 1rem;
 }
 
 .markdown-body ul {
-  padding: 0.5em 1em;
+  padding: 1.5em;
 }
 
 .markdown-body li {
-  /* list-style: none; */
+  list-style-type: " - ";
   font-size: 1rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
 }

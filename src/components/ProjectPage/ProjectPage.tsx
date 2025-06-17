@@ -40,14 +40,16 @@ export default function ProjectPage() {
   if (!content) return <p>Laden…</p>;
 
   return (
-    <article className={styles["markdown-body"]}>
-      {content.frontmatter.title && <h1>{content.frontmatter.title}</h1>}
-      {content.frontmatter.date && (
-        <time dateTime={content.frontmatter.date}>
-          {content.frontmatter.date}
-        </time>
-      )}
-      <ReactMarkdown>{content.markdown}</ReactMarkdown>
-    </article>
+    <section className={styles.section}>
+      <article className={styles["markdown-body"]}>
+        {content.frontmatter.title && <h1>{content.frontmatter.title}</h1>}
+        {content.frontmatter.date && (
+          <time dateTime={content.frontmatter.date}>
+            {content.frontmatter.date}
+          </time>
+        )}
+        <ReactMarkdown>{content.markdown}</ReactMarkdown>
+      </article>
+    </section>
   );
 }
