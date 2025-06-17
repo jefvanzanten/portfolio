@@ -2,7 +2,13 @@
   {
     "id": 8,
     "name": "Inventarius",
-    "description": "Inventarisatie van alle producten in huis voor voorraad en datum check.",
+    "description": [
+      "Met deze app houd ik de inventarisatie bij van al mijn producten.",
+      "Nooit meer vergeten als producten bijna op zijn of als de datum bijna is verlopen.",
+      "\n\n",
+      "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle",
+      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+    ],
     "url": "https://github.com/JeffreyvnZanten/inventarius",
     "stack": [
       "TypeScript",
@@ -20,7 +26,8 @@
     "id": 7,
     "name": "Portfolio",
     "description": [
-      "Dit is het project van de website waar je je nu op bevindt. ",
+      "Dit project is de site waar je nu op bent.\n",
+      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON.",
       "\n\n",
       "Je kunt hier lezen over hoe de site is opgebouwd en welke technieken zijn toegepast."
     ],
@@ -31,8 +38,14 @@
   },
   {
     "id": 6,
-    "name": "Todo - Server Side Rendering",
-    "description": "Description van frontend project",
+    "name": "Todo - SSR Web Client",
+    "description": [
+      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.",
+      "Ook hier zit de authenticatie in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd",
+      "Deze applicatie is gemaakt met NextJS, TypeScript en CSS",
+      "\n\n",
+      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+    ],
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["Nextjs", "React", "TypeScript"],
     "category": "Fullstack",
@@ -42,11 +55,11 @@
     "id": 5,
     "name": "Todo - Mobile App",
     "description": [
-      "Dit is de mobile app die gebruik maakt van de REST API van de Todo backend. ",
+      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
       "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
+      "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo.",
       "\n\n",
-      "De app maakt gebruik van Better-Auth voor authenticatie door de gegevens uit de .env te lezen en TanStack Query voor data fetching.",
-      "Deze data is gecached en wordt pas geupdate als de data uit de fetch niet meer actueel is. "
+      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
     "stack": [
@@ -76,7 +89,14 @@
   {
     "id": 3,
     "name": "Reeksenspel",
-    "description": "Description van frontend project",
+    "description": [
+      "Dit is een project waarbij ik heb geprobeerd een spel te maken met React, TypeScript en Tailwind CSS.",
+      "\n\n",
+      "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen.",
+      "Deze appicatie is gemaakt met React, TypeScript en Tailwind CSS",
+      "\n\n",
+      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+    ],
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["React", "TypeScript", "Tailwind CSS"],
     "category": "Frontend",
@@ -86,7 +106,11 @@
     "id": 2,
     "name": "Fase 2 OV App - Backend",
     "description": [
-      "Dit is de backend van de OV applicatie van het project van de 2e fase. "
+      "Dit is de backend van de OV applicatie van het project van de 2e fase.\n",
+      "Deze backend is de eerste kennismaking die ik had met het maken van een REST API.\n",
+      "De backend is gemaakt met TypeScript, Express en SQLite.",
+      "\n\n",
+      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],

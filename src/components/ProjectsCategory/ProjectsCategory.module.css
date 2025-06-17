@@ -38,13 +38,10 @@
   padding: 1em 0.5em;
 }
 
-.button {
-  width: fit-content;
-  padding: 0.8em 2em;
-  border: rgba(12, 217, 224, 0.767) solid 1px;
-  border-radius: 0.5em;
-  background-color: rgba(12, 217, 224, 0.452);
-  color: white;
+.description {
+  font-size: 1rem;
+  white-space: pre-wrap;
+  padding: 0 0.5em;
 }
 
 @media screen and (max-width: 1000px) {

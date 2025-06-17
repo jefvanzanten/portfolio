@@ -27,7 +27,7 @@ export default function ProjectCategory() {
               key={project.name}
             >
               <h2 className={styles.h2}>{project.name}</h2>
-              <p>{project.description}</p>
+              <p className={styles.description}>{project.description}</p>
               <NavButton title="Meer info" />
             </Link>
           ))}
