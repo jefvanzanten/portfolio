@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <div className={styles["home-container"]}>
         <h1 className={styles.h1}>
-          Ik ben een fullstack web en mobile app developer
+          Ik maak fullstack web en mobiele applicaties
         </h1>
         <p className={styles.p}>
           Hey, mijn naam is Jef. Momenteel volg ik de studie Software
