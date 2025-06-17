@@ -70,7 +70,7 @@
 @media screen and (max-width: 800px) {
   .project-category-card {
     padding: 1em;
-    gap: 4vh;
+    gap: 2vh;
   }
 
   .category-icon {
