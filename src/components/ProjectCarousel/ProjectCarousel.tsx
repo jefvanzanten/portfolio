@@ -27,9 +27,7 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
 
       <Link
         className={styles["project-card"]}
-        to={`/projects/${currentProject.category}/${
-          currentProject.id as number
-        }`}
+        to={`/projects/${currentProject.category}/${currentProject.slug}`}
       >
         <h1 className={styles.h1}>{currentProject.name}</h1>
         <p className={styles.description}>{currentProject.description}</p>

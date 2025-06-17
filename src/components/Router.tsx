@@ -21,7 +21,7 @@ export default function Router() {
           <Route key={item.to} path={item.to} element={item.element} />
         ))}
         <Route path="/projects/:category" element={<ProjectsCategory />} />
-        <Route path="/projects/:category/:id" element={<ProjectPage />} />
+        <Route path="/projects/:category/:slug" element={<ProjectPage />} />
       </Routes>
     </>
   );

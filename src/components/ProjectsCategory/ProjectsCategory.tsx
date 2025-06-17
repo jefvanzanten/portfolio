@@ -22,7 +22,7 @@ export default function ProjectCategory() {
         <div className={styles["project-category-list"]}>
           {filtered.map((project) => (
             <Link
-              to={`/projects/${category}/${project.id as number}`}
+              to={`/projects/${category}/${project.slug}`}
               className={styles.container}
               key={project.name}
             >

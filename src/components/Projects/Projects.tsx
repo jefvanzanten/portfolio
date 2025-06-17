@@ -10,6 +10,7 @@ export type Project = {
   id: number;
   name: string;
   description: string;
+  slug: string;
   url: string;
   stack: string[];
   category: "Frontend" | "Backend" | "Mobile" | "Fullstack";

@@ -9,6 +9,7 @@
       "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle",
       "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "inventarius",
     "url": "https://github.com/JeffreyvnZanten/inventarius",
     "stack": [
       "TypeScript",
@@ -31,6 +32,7 @@
       "\n\n",
       "Je kunt hier lezen over hoe de site is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
     "stack": ["React", "CSS", "TypeScript", "React Router", "JSON"],
     "category": "Frontend",
@@ -46,6 +48,7 @@
       "\n\n",
       "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["Nextjs", "React", "TypeScript"],
     "category": "Fullstack",
@@ -61,6 +64,7 @@
       "\n\n",
       "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
     "stack": [
       "React Native",
@@ -81,6 +85,7 @@
       "Het maken van todo's is alleen mogelijk met het juiste account. ",
       "De REST API wordt gebruikt voor de mobile app. "
     ],
+    "slug": "todo-backend",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
     "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
     "category": "Backend",
@@ -97,6 +102,7 @@
       "\n\n",
       "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["React", "TypeScript", "Tailwind CSS"],
     "category": "Frontend",
@@ -112,6 +118,7 @@
       "\n\n",
       "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
     ],
+    "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],
     "category": "Backend",
@@ -124,6 +131,7 @@
       "Dit is de frontend van de OV applicatie van het project van de 2e fase. ",
       "Deze frontend is geoptimaliseerd voor blinde mensen en is volledig toegankelijk. "
     ],
+    "slug": "ov-app-frontend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
     "stack": ["React", "TypeScript"],
     "category": "Frontend",
@@ -133,6 +141,7 @@
     "id": 0,
     "name": "SupplementTracker - Android",
     "description": "Description van mobile app",
+    "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
     "stack": ["Kotlin", "Compose Multiplatform", "Room"],
     "category": "Mobile",
