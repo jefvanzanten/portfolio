@@ -1,17 +1,17 @@
 # Portfolio
 
 - Doel
-- UI/UX, design patterns en codearchitectuur
-- Onderbouwing techstack
+- Keuzes & Onderbouwing
+- Techstack & Onderbouwing
 
 ## Doel
 
 Deze applicatie is gemaakt met als doel om de productopbouw, design en code keuzes toe te lichten.
 
-## UI/UX, design patterns en codearchitectuur
+## Keuzes & Onderbouwing
 
 Lorem ipsum..
 
-## Onderbouwing techstack
+## Techstack & Onderbouwing
 
 Lorem ipsum..
