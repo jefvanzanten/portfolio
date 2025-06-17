@@ -7,9 +7,13 @@ type NavButtonProps = {
 };
 
 export default function NavButton({ title, to }: NavButtonProps) {
-  return (
-    <Link className={styles.button} to={to ?? ""}>
-      {title}
-    </Link>
-  );
+  if (to) {
+    return (
+      <Link className={styles.button} to={to}>
+        {title}
+      </Link>
+    );
+  }
+
+  return <button className={styles.button}>{title}</button>;
 }
