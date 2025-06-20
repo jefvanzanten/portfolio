@@ -27,7 +27,7 @@
     "id": 7,
     "name": "Portfolio",
     "description": [
-      "Dit project is de site waar je nu op bent.\n",
+      "Dit project is de site waar je je nu op bevindt.\n",
       "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON. "
     ],
     "slug": "portfolio",

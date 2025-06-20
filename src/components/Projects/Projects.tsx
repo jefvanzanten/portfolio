@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "./Projects.module.css";
+import styles from "./Projects-new.module.css";
 import { getRecentProjects } from "../../helper";
 import { Link } from "react-router";
 import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
