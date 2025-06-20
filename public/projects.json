@@ -6,8 +6,7 @@
       "Met deze app houd ik de inventarisatie bij van al mijn producten.",
       "Nooit meer vergeten als producten bijna op zijn of als de datum bijna is verlopen.",
       "\n\n",
-      "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle",
-      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+      "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle"
     ],
     "slug": "inventarius",
     "url": "https://github.com/JeffreyvnZanten/inventarius",
@@ -28,9 +27,7 @@
     "name": "Portfolio",
     "description": [
       "Dit project is de site waar je nu op bent.\n",
-      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON.",
-      "\n\n",
-      "Je kunt hier lezen over hoe de site is opgebouwd en welke technieken zijn toegepast."
+      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON."
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
@@ -44,9 +41,7 @@
     "description": [
       "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.",
       "Ook hier zit de authenticatie in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd",
-      "Deze applicatie is gemaakt met NextJS, TypeScript en CSS",
-      "\n\n",
-      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+      "Deze applicatie is gemaakt met NextJS, TypeScript en CSS"
     ],
     "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
@@ -60,9 +55,7 @@
     "description": [
       "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
       "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
-      "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo.",
-      "\n\n",
-      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+      "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo."
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
@@ -98,9 +91,7 @@
       "Dit is een project waarbij ik heb geprobeerd een spel te maken met React, TypeScript en Tailwind CSS.",
       "\n\n",
       "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen.",
-      "Deze appicatie is gemaakt met React, TypeScript en Tailwind CSS",
-      "\n\n",
-      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+      "Deze appicatie is gemaakt met React, TypeScript en Tailwind CSS"
     ],
     "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
@@ -114,9 +105,7 @@
     "description": [
       "Dit is de backend van de OV applicatie van het project van de 2e fase.\n",
       "Deze backend is de eerste kennismaking die ik had met het maken van een REST API.\n",
-      "De backend is gemaakt met TypeScript, Express en SQLite.",
-      "\n\n",
-      "Je kunt hier lezen over hoe de applicatie is opgebouwd en welke technieken zijn toegepast."
+      "De backend is gemaakt met TypeScript, Express en SQLite."
     ],
     "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
@@ -140,7 +129,10 @@
   {
     "id": 0,
     "name": "SupplementTracker - Android",
-    "description": "Description van mobile app",
+    "description": [
+      "Dit is een van de eerste Android apps die ik ooit gemaakt heb. ",
+      "Een basic app waarmee ik items in een lokale database kan opslaan en kan terug bekijken per dag."
+    ],
     "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
     "stack": ["Kotlin", "Compose Multiplatform", "Room"],
