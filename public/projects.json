@@ -3,7 +3,7 @@
     "id": 8,
     "name": "Inventarius",
     "description": [
-      "Met deze app houd ik de inventarisatie bij van al mijn producten.",
+      "Met deze app houd ik de inventarisatie bij van al mijn producten.\n",
       "Nooit meer vergeten als producten bijna op zijn of als de datum bijna is verlopen.",
       "\n\n",
       "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle"
@@ -27,7 +27,7 @@
     "name": "Portfolio",
     "description": [
       "Dit project is de site waar je nu op bent.\n",
-      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON."
+      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON. "
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
@@ -39,8 +39,8 @@
     "id": 6,
     "name": "Todo - SSR Web Client",
     "description": [
-      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.",
-      "Ook hier zit de authenticatie in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd",
+      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.\n",
+      "Ook hier zit de authenticatie in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd ",
       "Deze applicatie is gemaakt met NextJS, TypeScript en CSS"
     ],
     "slug": "todo-ssr",
@@ -53,7 +53,7 @@
     "id": 5,
     "name": "Todo - Mobile App",
     "description": [
-      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
+      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.\n",
       "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
       "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo."
     ],
@@ -73,7 +73,7 @@
     "id": 4,
     "name": "Todo - Backend",
     "description": [
-      "Met dit project heb ik m'n eerste REST API met authenticatie gemaakt. ",
+      "Met dit project heb ik m'n eerste REST API met authenticatie gemaakt.",
       "\n\n",
       "Het maken van todo's is alleen mogelijk met het juiste account. ",
       "De REST API wordt gebruikt voor de mobile app. "
@@ -90,7 +90,7 @@
     "description": [
       "Dit is een project waarbij ik heb geprobeerd een spel te maken met React, TypeScript en Tailwind CSS.",
       "\n\n",
-      "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen.",
+      "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen. ",
       "Deze appicatie is gemaakt met React, TypeScript en Tailwind CSS"
     ],
     "slug": "reeksenspel",
@@ -117,7 +117,7 @@
     "id": 1,
     "name": "Fase 2 OV App - Frontend",
     "description": [
-      "Dit is de frontend van de OV applicatie van het project van de 2e fase. ",
+      "Dit is de frontend van de OV applicatie van het project van de 2e fase.\n",
       "Deze frontend is geoptimaliseerd voor blinde mensen en is volledig toegankelijk. "
     ],
     "slug": "ov-app-frontend",
@@ -130,8 +130,8 @@
     "id": 0,
     "name": "SupplementTracker - Android",
     "description": [
-      "Dit is een van de eerste Android apps die ik ooit gemaakt heb. ",
-      "Een basic app waarmee ik items in een lokale database kan opslaan en kan terug bekijken per dag."
+      "Dit is een van de eerste Android apps die ik ooit gemaakt heb\n",
+      "Een basic app waarmee ik items in een lokale database kan opslaan en kan terug bekijken per dag. "
     ],
     "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
