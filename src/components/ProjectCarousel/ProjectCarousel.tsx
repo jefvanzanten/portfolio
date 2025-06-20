@@ -21,7 +21,7 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
       {hasPrev && (
         <CarouselButton
           handlePress={() => setCurrentIndex(currentIndex - 1)}
-          symbol="◀"
+          direction="previous"
         />
       )}
 
@@ -48,7 +48,7 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
       {hasNext && (
         <CarouselButton
           handlePress={() => setCurrentIndex(currentIndex + 1)}
-          symbol="▶"
+          direction="next"
         />
       )}
     </div>
