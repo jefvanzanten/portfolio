@@ -21,15 +21,17 @@ export default function ProjectCategory() {
         <h1 className={styles.h1}>{capitalizeFirstLetter(category ?? "")}</h1>
         <div className={styles["project-category-list"]}>
           {filtered.map((project) => (
-            <Link
-              to={`/projects/${category}/${project.slug}`}
-              className={styles.container}
-              key={project.name}
-            >
+            // <Link
+            //   to={`/projects/${category}/${project.slug}`}
+            //   className={styles.container}
+            //   key={project.name}
+            // >
+            <div className={styles.container}>
               <h2 className={styles.h2}>{project.name}</h2>
               <p className={styles.description}>{project.description}</p>
               <NavButton title="Meer info" />
-            </Link>
+            </div>
+            // </Link>
           ))}
         </div>
       </section>
