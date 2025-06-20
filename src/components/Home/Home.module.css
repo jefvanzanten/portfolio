@@ -120,4 +120,8 @@
     position: relative;
     top: 2em;
   }
+
+  .home-tech {
+    text-wrap: nowrap;
+  }
 }
