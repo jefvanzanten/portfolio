@@ -3,8 +3,9 @@
     "id": 8,
     "name": "Inventarius",
     "description": [
-      "Met deze app houd ik de inventarisatie bij van al mijn producten.\n",
-      "Nooit meer vergeten als producten bijna op zijn of als de datum bijna is verlopen.",
+      "Met deze app houd ik de inventarisatie bij van al mijn producten. ",
+      "Reminders als producten bijna op zijn of als de datum bijna is verlopen en ",
+      "nen makkelijke manier om de status van de producten up te daten",
       "\n\n",
       "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle"
     ],
