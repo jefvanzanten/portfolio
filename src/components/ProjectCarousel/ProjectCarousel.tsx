@@ -25,10 +25,11 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
         />
       )}
 
-      <Link
+      {/* <Link
         className={styles["project-card"]}
         to={`/projects/${currentProject.category}/${currentProject.slug}`}
-      >
+      > */}
+      <div className={styles.container}>
         <h1 className={styles.h1}>{currentProject.name}</h1>
         <p className={styles.description}>{currentProject.description}</p>
         {/* <div className={styles["stack-container"]}>
@@ -39,7 +40,8 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
             ))}
             </div> */}
         <NavButton title="Meer info" />
-      </Link>
+      </div>
+      {/* </Link> */}
 
       {hasNext && (
         <CarouselButton
