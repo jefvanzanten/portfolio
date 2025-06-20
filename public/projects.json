@@ -103,7 +103,8 @@
     "id": 2,
     "name": "Fase 2 OV App - Backend",
     "description": [
-      "Dit is de backend van de OV applicatie van het project van de 2e fase.\n",
+      "Dit is de backend van de OV applicatie van het project van de 2e fase.",
+      "\n\n",
       "Deze backend is de eerste kennismaking die ik had met het maken van een REST API.\n",
       "De backend is gemaakt met TypeScript, Express en SQLite."
     ],
@@ -117,7 +118,8 @@
     "id": 1,
     "name": "Fase 2 OV App - Frontend",
     "description": [
-      "Dit is de frontend van de OV applicatie van het project van de 2e fase.\n",
+      "Dit is de frontend van de OV applicatie van het project van de 2e fase.",
+      "\n\n",
       "Deze frontend is geoptimaliseerd voor blinde mensen en is volledig toegankelijk. "
     ],
     "slug": "ov-app-frontend",
