@@ -39,9 +39,14 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;
   }
+
+  .main {
+    justify-content: center;
+    min-height: 90vh;
+  }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
   .section {
     width: 80%;
   }
