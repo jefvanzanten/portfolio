@@ -3,16 +3,20 @@ import styles from "./Home.module.css";
 import NavButton from "../NavButton/NavButton";
 
 const data = [
-  { name: "React" },
-  { name: "Tailwind/CSS" },
-  { name: "Next.js" },
-  { name: "TypeScript" },
-  { name: "Express" },
-  { name: "Drizzle" },
-  { name: "Better-Auth" },
-  { name: "SQL" },
-  { name: "React Native" },
-  { name: "Kotlin/Compose" },
+  { name: "React", url: "https://react.dev/" },
+  { name: "Tailwind/CSS", url: "https://tailwindcss.com/" },
+  { name: "Next.js", url: "https://nextjs.org/" },
+  { name: "TypeScript", url: "https://www.typescriptlang.org/" },
+  { name: "Express", url: "https://expressjs.com/" },
+  { name: "Drizzle", url: "https://orm.drizzle.team/" },
+  { name: "Better-Auth", url: "https://www.better-auth.com/" },
+  { name: "SQLite", url: "https://sqlite.org/" },
+  { name: "Postgres", url: "https://www.postgresql.org/" },
+  { name: "React Native", url: "https://reactnative.dev/" },
+  {
+    name: "Jetpack Compose (Kotlin)",
+    url: "https://developer.android.com/compose",
+  },
 ];
 
 export default function Home() {
@@ -38,9 +42,14 @@ export default function Home() {
       </div>
       <footer className={styles.footer}>
         {data.map((item, index) => (
-          <span key={index} className={styles["home-tech"]}>
+          <a
+            href={item.url}
+            target="_blank"
+            key={index}
+            className={styles["home-tech"]}
+          >
             {item.name}
-          </span>
+          </a>
         ))}
       </footer>
     </main>
