@@ -5,7 +5,7 @@
     "description": [
       "Met deze app houd ik de inventarisatie bij van al mijn producten. ",
       "Reminders als producten bijna op zijn of als de datum bijna is verlopen en ",
-      "nen makkelijke manier om de status van de producten up te daten",
+      "een makkelijke manier om de status van de producten up te daten",
       "\n\n",
       "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle"
     ],
@@ -40,8 +40,10 @@
     "id": 6,
     "name": "Todo - SSR Web Client",
     "description": [
-      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.\n",
-      "Ook hier zit de authenticatie in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd ",
+      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.",
+      "\n\n",
+      "Hier is de authenticatie van de backend in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd",
+      "\n\n",
       "Deze applicatie is gemaakt met NextJS, TypeScript en CSS"
     ],
     "slug": "todo-ssr",
