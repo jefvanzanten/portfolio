@@ -29,17 +29,19 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
         className={styles["project-card"]}
         to={`/projects/${currentProject.category}/${currentProject.slug}`}
       > */}
-      <div className={styles.container}>
-        <h1 className={styles.h1}>{currentProject.name}</h1>
-        <p className={styles.description}>{currentProject.description}</p>
-        {/* <div className={styles["stack-container"]}>
+      <div className={styles["project-card"]}>
+        <div className={styles.container}>
+          <h1 className={styles.h1}>{currentProject.name}</h1>
+          <p className={styles.description}>{currentProject.description}</p>
+          {/* <div className={styles["stack-container"]}>
           {currentProject.stack.map((stack, index) => (
             <span key={index} className={styles.stack}>
             {stack}
             </span>
             ))}
             </div> */}
-        <NavButton title="Meer info" />
+          <NavButton title="Meer info" />
+        </div>
       </div>
       {/* </Link> */}
 
