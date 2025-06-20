@@ -29,7 +29,7 @@ export default function ProjectCategory() {
             <div className={styles.container}>
               <h2 className={styles.h2}>{project.name}</h2>
               <p className={styles.description}>{project.description}</p>
-              <NavButton title="Meer info" />
+              {/* <NavButton title="Meer info" /> */}
             </div>
             // </Link>
           ))}

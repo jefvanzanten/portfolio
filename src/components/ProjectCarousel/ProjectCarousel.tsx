@@ -40,7 +40,7 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
             </span>
             ))}
             </div> */}
-        <NavButton title="Meer info" />
+        {/* <NavButton title="Meer info" /> */}
         {/* </div> */}
       </div>
       {/* </Link> */}
