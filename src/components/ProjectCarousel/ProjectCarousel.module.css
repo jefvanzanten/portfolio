@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 30vh;
   border: 1px solid rgba(12, 217, 224, 0.767);
   /* background-color: rgba(12, 217, 224, 0.541); */
   border-radius: 1em;
@@ -14,8 +13,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 2em;
   cursor: pointer;
-  padding: 1em 0;
+  gap: 2em;
 }
 
 .h1 {
@@ -26,7 +27,6 @@
 .description {
   font-size: 1rem;
   white-space: pre-wrap;
-  padding: 0 1em 1em 1em;
 }
 
 .stack-container {
@@ -44,4 +44,19 @@
   border-radius: 0.5em;
   background-color: rgba(12, 217, 224, 0.541);
   color: white;
+}
+
+.github-container {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  width: 40%;
+}
+
+.github-logo {
+  width: 2rem;
 }

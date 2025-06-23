@@ -3,6 +3,7 @@ import useProjects from "../../hooks/useProjects";
 import styles from "./ProjectsCategory.module.css";
 import { capitalizeFirstLetter } from "../../helper";
 import NavButton from "../NavButton/NavButton";
+import SocialLink from "../SocialLink/SocialLink";
 
 export default function ProjectCategory() {
   const { category } = useParams();
@@ -27,20 +28,15 @@ export default function ProjectCategory() {
             //   key={project.name}
             // >
             <div className={styles.container}>
-              <h2 className={styles.h2}>{project.name}</h2>
-              <p className={styles.description}>{project.description}</p>
-              <a
-                className={styles["github-container"]}
-                href={project.url}
-                target="_blank"
-              >
-                <img
-                  className={styles["github-logo"]}
-                  src="/github-mark-white.svg"
-                />
-                Github
-              </a>
-              {/* <NavButton title="Meer info" /> */}
+              <div className={styles["text-container"]}>
+                <h2 className={styles.h2}>{project.name}</h2>
+                <p className={styles.description}>{project.description}</p>
+              </div>
+              <SocialLink
+                name="Github"
+                iconUrl="/github-mark-white.svg"
+                url={project.url}
+              />
             </div>
             // </Link>
           ))}
