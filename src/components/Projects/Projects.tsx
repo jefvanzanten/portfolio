@@ -13,6 +13,7 @@ export type Project = {
   slug: string;
   url: string;
   stack: string[];
+  images: string[];
   category: "Frontend" | "Backend" | "Mobile" | "Fullstack";
   lastUpdated: string;
 };

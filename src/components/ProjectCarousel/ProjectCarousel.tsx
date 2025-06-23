@@ -33,15 +33,10 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
         {/* <div className={styles.container}> */}
         <h1 className={styles.h1}>{currentProject.name}</h1>
         <p className={styles.description}>{currentProject.description}</p>
-        {/* <div className={styles["stack-container"]}>
-          {currentProject.stack.map((stack, index) => (
-            <span key={index} className={styles.stack}>
-            {stack}
-            </span>
-            ))}
-            </div> */}
-        {/* <NavButton title="Meer info" /> */}
-        {/* </div> */}
+        {/* {currentProject.images &&
+          map.currentProject.images((imageUrl) => {
+            <img src={imageUrl} />;
+          })} */}
       </div>
       {/* </Link> */}
 
