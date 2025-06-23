@@ -61,7 +61,8 @@
     "description": [
       "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
       "\n\n",
-      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid.\n",
+      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid.",
+      "\n\n",
       "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo."
     ],
     "slug": "todo-mobile",
