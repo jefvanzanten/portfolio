@@ -5,12 +5,12 @@ export default function Contact() {
   return (
     <main className={styles.content}>
       <SocialLink
-        name="LinkedIn.com/jefvanzanten"
-        iconUrl={"LI-Logo.png"}
+        name="LinkedIn"
+        iconUrl={"/LI-In-Bug.png"}
         url={"https://www.linkedin.com/in/jefvanzanten"}
       />
       <SocialLink
-        name="j.van.zanten@gmail.com"
+        name="E-mail"
         iconUrl={"mail.svg"}
         url={"mailto:j.van.zanten@gmail.com"}
       />
