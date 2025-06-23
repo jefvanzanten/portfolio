@@ -19,6 +19,7 @@
       "Better-Auth",
       "Zod"
     ],
+    "images": [""],
     "category": "Fullstack",
     "lastUpdated": "2025-06-10"
   },
@@ -50,6 +51,7 @@
     "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["Nextjs", "React", "TypeScript"],
+    "images": [""],
     "category": "Fullstack",
     "lastUpdated": "2025-05-22"
   },
@@ -57,8 +59,9 @@
     "id": 5,
     "name": "Todo - Mobile App",
     "description": [
-      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.\n",
-      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
+      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
+      "\n\n",
+      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid.\n",
       "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo."
     ],
     "slug": "todo-mobile",
@@ -70,6 +73,7 @@
       "Better-Auth",
       "TanStack Query"
     ],
+    "images": [""],
     "category": "Mobile",
     "lastUpdated": "2025-06-10"
   },
@@ -85,6 +89,7 @@
     "slug": "todo-backend",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
     "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
+    "images": [""],
     "category": "Backend",
     "lastUpdated": "2025-05-26"
   },
@@ -100,6 +105,7 @@
     "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
     "stack": ["React", "TypeScript", "Tailwind CSS"],
+    "images": [""],
     "category": "Frontend",
     "lastUpdated": "2025-04-22"
   },
@@ -115,6 +121,7 @@
     "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
     "stack": ["TypeScript", "Express", "SQLite"],
+    "images": [""],
     "category": "Backend",
     "lastUpdated": "2025-03-13"
   },
@@ -129,6 +136,7 @@
     "slug": "ov-app-frontend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
     "stack": ["React", "TypeScript"],
+    "images": [""],
     "category": "Frontend",
     "lastUpdated": "2025-03-13"
   },
@@ -137,11 +145,12 @@
     "name": "SupplementTracker - Android",
     "description": [
       "Dit is een van de eerste Android apps die ik ooit gemaakt heb\n",
-      "Een basic app waarmee ik items in een lokale database kan opslaan en kan terug bekijken per dag. "
+      "Een basic app waarmee je items in een lokale database kan opslaan en kan terugkijken per dag. "
     ],
     "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
     "stack": ["Kotlin", "Compose Multiplatform", "Room"],
+    "images": [""],
     "category": "Mobile",
     "lastUpdated": "2024-11-02"
   }
