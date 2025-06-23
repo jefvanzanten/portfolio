@@ -49,7 +49,7 @@
       "Deze applicatie is gemaakt met NextJS, TypeScript en CSS"
     ],
     "slug": "todo-ssr",
-    "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
+    "url": "https://github.com/JeffreyvnZanten/todo-nextjs/",
     "stack": ["Nextjs", "React", "TypeScript"],
     "images": [""],
     "category": "Fullstack",
