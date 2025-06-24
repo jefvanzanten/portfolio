@@ -5,6 +5,7 @@ import CarouselButton from "./CarouselButton";
 import { Link } from "react-router";
 import NavButton from "../NavButton/NavButton";
 import SocialLink from "../SocialLink/SocialLink";
+import ProjectImages from "../ProjectImages/ProjectImages";
 
 type ProjectCarouselProps = {
   projects: Project[];
@@ -36,14 +37,11 @@ export default function ProjectCarousel({ projects }: ProjectCarouselProps) {
           <h1 className={styles.h1}>{currentProject.name}</h1>
           <p className={styles.description}>{currentProject.description}</p>
         </div>
-        {/* {currentProject.images &&
-          map.currentProject.images((imageUrl) => {
-            <img src={imageUrl} />;
-          })} */}
+        {/* <ProjectImages currentProject={currentProject} /> */}
         <SocialLink
           name="Github"
           url={currentProject.url}
-          iconUrl="/github-mark-white.svg"
+          iconUrl="/icons/github-mark-white.svg"
         />
       </div>
       {/* </Link> */}

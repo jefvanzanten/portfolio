@@ -34,7 +34,7 @@ export default function ProjectCategory() {
               </div>
               <SocialLink
                 name="Github"
-                iconUrl="/github-mark-white.svg"
+                iconUrl="/icons/github-mark-white.svg"
                 url={project.url}
               />
             </div>
