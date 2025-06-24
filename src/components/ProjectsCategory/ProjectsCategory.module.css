@@ -58,11 +58,7 @@
   }
 
   .section {
-    width: 60%;
-  }
-
-  .project-category-list {
-    grid-template-columns: repeat(2, 1fr);
+    width: 30%;
   }
 
   .container {
