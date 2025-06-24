@@ -1,8 +1,11 @@
 .content-images {
   display: flex;
+  flex: 1;
   flex-direction: row;
   gap: 1em;
   overflow-x: auto;
+  min-width: 0;
+  flex-wrap: wrap;
 }
 
 .screenshot {

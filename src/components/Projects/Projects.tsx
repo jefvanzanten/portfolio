@@ -16,6 +16,7 @@ export type Project = {
   images: string[];
   category: "Frontend" | "Backend" | "Mobile" | "Fullstack";
   lastUpdated: string;
+  highlighted: boolean;
 };
 
 export default function Projects() {
@@ -32,6 +33,10 @@ export default function Projects() {
     (item) => item.category === "Fullstack"
   );
 
+  const highlightedProjects = projects.filter(
+    (item) => item.highlighted === true
+  );
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -39,8 +44,8 @@ export default function Projects() {
   return (
     <main className={styles.main}>
       <section className={styles.section}>
-        <h1 className={styles.h1}>Recente Projecten</h1>
-        <ProjectCarousel projects={getRecentProjects(projects)} />
+        <h1 className={styles.h1}>Uitgelichte Projecten</h1>
+        <ProjectCarousel projects={highlightedProjects} />
       </section>
       <section className={styles.section}>
         <h1 className={styles.h1}>Categoriën</h1>

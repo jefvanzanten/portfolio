@@ -3,7 +3,7 @@
     "id": 8,
     "name": "Inventarius",
     "description": [
-      "Deze app is bedoelt om de inventarisatie bij te houden van elk gekocht of gemaakt product\n",
+      "Deze app is bedoelt om de inventarisatie bij te houden van elk gekocht of gemaakt product.\n\n",
       "Voor nu is de applicatie alleen een inlog portaal die met authenticatie bepaald of de gebruiker de applicatie mag betreden of niet."
     ],
     "slug": "inventarius",
@@ -18,7 +18,8 @@
     ],
     "images": [""],
     "category": "Fullstack",
-    "lastUpdated": "2025-06-10"
+    "lastUpdated": "2025-06-10",
+    "highlighted": false
   },
 
   {
@@ -26,15 +27,22 @@
     "name": "Portfolio",
     "description": [
       "Dit is het project van de site waar je je nu op bevindt.\n",
-      "Het is een simpele statische site die client side wordt gerendered.\n",
-      "Elk project heeft zijn eigen route om op deze manier makkelijker links te delen"
+      "Het is een simpele statische site die client side wordt gerendered. ",
+      "\n\n",
+      "Elk project heeft zijn eigen route om op deze manier makkelijker links te delen met derden of om op te slaan om later weer te bekijken."
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
     "stack": ["React", "CSS", "TypeScript", "React Router", "JSON"],
-    "images": ["/portfolio/mobile.png", "/portfolio/desktop.png"],
+    "images": [
+      "/screenshots/portfolio/mobile landingpage.png",
+      "/screenshots/portfolio/mobile projectpage.png",
+      "/screenshots/portfolio/desktop landingpage.png",
+      "/screenshots/portfolio/desktop projectpage.png"
+    ],
     "category": "Frontend",
-    "lastUpdated": "2025-06-13"
+    "lastUpdated": "2025-06-13",
+    "highlighted": true
   },
   {
     "id": 6,
@@ -50,16 +58,37 @@
     "stack": ["Nextjs", "React", "TypeScript"],
     "images": [""],
     "category": "Fullstack",
-    "lastUpdated": "2025-05-22"
+    "lastUpdated": "2025-05-22",
+    "highlighted": false
   },
   {
     "id": 5,
+    "name": "Todo - Backend",
+    "description": [
+      "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei. ",
+      "Het is een REST API met een beveiligde POST endpoint",
+      "\n\n",
+      "Hierdoor is het maken van todo's alleen mogelijk met het juiste account.",
+      "\n\n",
+      "De REST API wordt gebruikt voor de mobile app en de web client. "
+    ],
+    "slug": "todo-backend",
+    "url": "https://github.com/JeffreyvnZanten/todobackend",
+    "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
+    "images": [""],
+    "category": "Backend",
+    "lastUpdated": "2025-05-26",
+    "highlighted": true
+  },
+  {
+    "id": 4,
     "name": "Todo - Mobile App",
     "description": [
       "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
       "\n\n",
-      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
-      "De app heeft ook een visuele scheiding tussen voltooide en niet-voltooide todo’s, waar tussen je kunt schakelen."
+      "Met deze app kan je todo's aanmaken en bewerken.\n",
+      "Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
+      "De app heeft ook een visuele scheiding tussen voltooide en niet-voltooide todo’s, waar tussen je kunt wisselen."
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
@@ -72,24 +101,8 @@
     ],
     "images": [""],
     "category": "Mobile",
-    "lastUpdated": "2025-06-10"
-  },
-  {
-    "id": 4,
-    "name": "Todo - Backend",
-    "description": [
-      "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei.",
-      "Het is een REST API met een beveiligde POST eindpoint",
-      "\n\n",
-      "Hierdoor is het maken van todo's alleen mogelijk met het juiste account. ",
-      "De REST API wordt gebruikt voor de mobile app en de web client. "
-    ],
-    "slug": "todo-backend",
-    "url": "https://github.com/JeffreyvnZanten/todobackend",
-    "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
-    "images": [""],
-    "category": "Backend",
-    "lastUpdated": "2025-05-26"
+    "lastUpdated": "2025-06-10",
+    "highlighted": true
   },
   {
     "id": 3,
@@ -104,7 +117,8 @@
     "stack": ["React", "TypeScript", "Tailwind CSS"],
     "images": [""],
     "category": "Frontend",
-    "lastUpdated": "2025-04-22"
+    "lastUpdated": "2025-04-22",
+    "highlighted": false
   },
   {
     "id": 2,
@@ -120,7 +134,8 @@
     "stack": ["TypeScript", "Express", "SQLite"],
     "images": [""],
     "category": "Backend",
-    "lastUpdated": "2025-03-13"
+    "lastUpdated": "2025-03-13",
+    "highlighted": false
   },
   {
     "id": 1,
@@ -135,7 +150,8 @@
     "stack": ["React", "TypeScript"],
     "images": [""],
     "category": "Frontend",
-    "lastUpdated": "2025-03-13"
+    "lastUpdated": "2025-03-13",
+    "highlighted": false
   },
   {
     "id": 0,
@@ -150,6 +166,7 @@
     "stack": ["Kotlin", "Compose Multiplatform", "Room"],
     "images": [""],
     "category": "Mobile",
-    "lastUpdated": "2024-11-02"
+    "lastUpdated": "2024-11-02",
+    "highlighted": false
   }
 ]
