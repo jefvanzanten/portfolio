@@ -3,11 +3,8 @@
     "id": 8,
     "name": "Inventarius",
     "description": [
-      "Met deze app houd ik de inventarisatie bij van al mijn producten. ",
-      "Reminders als producten bijna op zijn of als de datum bijna is verlopen en ",
-      "een makkelijke manier om de status van de producten up te daten",
-      "\n\n",
-      "Deze applicatie is met SSR gemaakt in NextJS, TypeScript, SQLite en Drizzle"
+      "Deze app is bedoelt om de inventarisatie bij te houden van elk gekocht of gemaakt product\n",
+      "Voor nu is de applicatie alleen een inlog portaal die met authenticatie bepaald of de gebruiker de applicatie mag betreden of niet."
     ],
     "slug": "inventarius",
     "url": "https://github.com/JeffreyvnZanten/inventarius",
@@ -28,8 +25,9 @@
     "id": 7,
     "name": "Portfolio",
     "description": [
-      "Dit project is de site waar je je nu op bevindt.\n",
-      "Een statische website gemaakt met React, React-Router, TypeScript, CSS en JSON. "
+      "Dit is het project van de site waar je je nu op bevindt.\n",
+      "Het is een simpele statische site die client side wordt gerendered.\n",
+      "Elk project heeft zijn eigen route om op deze manier makkelijker links te delen"
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
@@ -42,11 +40,10 @@
     "id": 6,
     "name": "Todo - SSR Web Client",
     "description": [
-      "Dit is de web client die gebruik maakt van de REST API van de Todo - Backend.",
+      "Dit is een Server Side Rendered web client die met de Todo Backend communiceert",
       "\n\n",
-      "Hier is de authenticatie van de backend in verwerkt, zodat je alleen todo's kunt bewerken of aanmaken als de juiste gebruiker is ingelogd",
-      "\n\n",
-      "Deze applicatie is gemaakt met NextJS, TypeScript en CSS"
+      "Voor nu nog heel simpel en haalt alleen de data op en laat het zien.\n",
+      "De planning is om een test gebruiker account in te richten voor demo doeleinden."
     ],
     "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/todo-nextjs/",
@@ -61,9 +58,8 @@
     "description": [
       "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
       "\n\n",
-      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid.",
-      "\n\n",
-      "Deze applicatie is gemaakt met React Native, Tan Stack Query, TypeScript en Expo."
+      "Met deze app kan je todo's aanmaken en bewerken. Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
+      "De app heeft ook een visuele scheiding tussen voltooide en niet-voltooide todo’s, waar tussen je kunt schakelen."
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
@@ -82,10 +78,11 @@
     "id": 4,
     "name": "Todo - Backend",
     "description": [
-      "Met dit project heb ik m'n eerste REST API met authenticatie gemaakt.",
+      "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei.",
+      "Het is een REST API met een beveiligde POST eindpoint",
       "\n\n",
-      "Het maken van todo's is alleen mogelijk met het juiste account. ",
-      "De REST API wordt gebruikt voor de mobile app. "
+      "Hierdoor is het maken van todo's alleen mogelijk met het juiste account. ",
+      "De REST API wordt gebruikt voor de mobile app en de web client. "
     ],
     "slug": "todo-backend",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
@@ -100,8 +97,7 @@
     "description": [
       "Dit is een project waarbij ik heb geprobeerd een spel te maken met React, TypeScript en Tailwind CSS.",
       "\n\n",
-      "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen. ",
-      "Deze appicatie is gemaakt met React, TypeScript en Tailwind CSS"
+      "De reeksenspellen zijn bedoeld om het werkgeheugen te trainen door de reeksen te onthouden en de juiste volgorde in te vullen. "
     ],
     "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
@@ -117,7 +113,7 @@
       "Dit is de backend van de OV applicatie van het project van de 2e fase.",
       "\n\n",
       "Deze backend is de eerste kennismaking die ik had met het maken van een REST API.\n",
-      "De backend is gemaakt met TypeScript, Express en SQLite."
+      "Er zit hier geen POST in omdat we hier niet aan toe waren gekomen \n"
     ],
     "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
