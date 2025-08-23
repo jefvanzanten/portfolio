@@ -3,19 +3,6 @@ import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 import useProjects from "../../hooks/useProjects";
 import ProjectCategoryCard from "../ProjectCategoryCard/ProjectCategoryCard";
 
-export type Project = {
-  id: number;
-  name: string;
-  description: string;
-  slug: string;
-  url: string;
-  stack: string[];
-  images: string[];
-  category: "Frontend" | "Backend" | "Mobile" | "Fullstack";
-  lastUpdated: string;
-  highlighted: boolean;
-};
-
 export default function Projects() {
   const { loading, projects } = useProjects();
 
