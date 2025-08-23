@@ -1,27 +1,34 @@
 [
   {
-    "id": 8,
-    "name": "Inventarius",
+    "id": 9,
+    "name": "Task Manager",
     "description": [
-      "Deze app is bedoelt om de inventarisatie bij te houden van elk gekocht of gemaakt product.\n\n",
-      "Voor nu is de applicatie alleen een inlog portaal die met authenticatie bepaald of de gebruiker de applicatie mag betreden of niet."
+      "A Task Manager like Notion, Todoist, Tick Tick, etc for organizing tasks and projects."
     ],
-    "slug": "inventarius",
-    "url": "https://github.com/JeffreyvnZanten/inventarius",
-    "stack": [
-      "TypeScript",
-      "NextJS",
-      "Drizzle",
-      "SQLite",
-      "Better-Auth",
-      "Zod"
-    ],
+    "slug": "task-manager",
+    "url": "https://github.com/JeffreyvnZanten/task-manager-nextjs",
+    "languages": ["TypeScript/JavaScript"],
+    "libraries": ["React", "Nextjs", "Tailwind CSS", "Drizzle", "Better-Auth"],
     "images": [""],
     "category": "Fullstack",
-    "lastUpdated": "2025-06-10",
-    "highlighted": false
+    "lastUpdated": "2025-08-22",
+    "highlighted": true
   },
-
+  {
+    "id": 8,
+    "name": "Make24",
+    "description": [
+      "A math game where the player has to make the sum of 24 by using all 4 numbers with operators."
+    ],
+    "slug": "make24",
+    "url": "https://github.com/JeffreyvnZanten/make24",
+    "languages": ["TypeScript/JavaScript", "CSS"],
+    "libraries": ["React"],
+    "images": [""],
+    "category": "Frontend",
+    "lastUpdated": "2025-07-24",
+    "highlighted": true
+  },
   {
     "id": 7,
     "name": "Portfolio",
@@ -33,7 +40,8 @@
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
-    "stack": ["React", "CSS", "TypeScript", "React Router", "JSON"],
+    "languages": ["TypeScript/JavaScript", "CSS"],
+    "libraries": ["React", "React Router"],
     "images": [
       "/screenshots/portfolio/mobile landingpage.png",
       "/screenshots/portfolio/mobile projectpage.png",
@@ -55,7 +63,8 @@
     ],
     "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/todo-nextjs/",
-    "stack": ["Nextjs", "React", "TypeScript"],
+    "languages": ["TypeScript/JavaScript", "HTML"],
+    "libraries": ["Nextjs", "React"],
     "images": [""],
     "category": "Fullstack",
     "lastUpdated": "2025-05-22",
@@ -74,7 +83,8 @@
     ],
     "slug": "todo-backend",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
-    "stack": ["TypeScript", "Express", "Drizzle", "PostgresQL", "Better-Auth"],
+    "languages": ["TypeScript/JavaScript"],
+    "libraries": ["Express", "Drizzle", "Better-Auth", "CORS", "dotenv"],
     "images": [""],
     "category": "Backend",
     "lastUpdated": "2025-05-26",
@@ -92,13 +102,8 @@
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
-    "stack": [
-      "React Native",
-      "TypeScript",
-      "Expo",
-      "Better-Auth",
-      "TanStack Query"
-    ],
+    "languages": ["TypeScript/JavaScript"],
+    "libraries": ["React Native", "Expo", "Better-Auth", "TanStack Query"],
     "images": [""],
     "category": "Mobile",
     "lastUpdated": "2025-06-10",
@@ -114,7 +119,8 @@
     ],
     "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
-    "stack": ["React", "TypeScript", "Tailwind CSS"],
+    "languages": ["TypeScript/JavaScript", "HTML"],
+    "libraries": ["React", "Tailwind CSS"],
     "images": [""],
     "category": "Frontend",
     "lastUpdated": "2025-04-22",
@@ -131,7 +137,8 @@
     ],
     "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
-    "stack": ["TypeScript", "Express", "SQLite"],
+    "languages": ["TypeScript/JavaScript"],
+    "libraries": ["Express", "CORS", "Jest"],
     "images": [""],
     "category": "Backend",
     "lastUpdated": "2025-03-13",
@@ -147,7 +154,8 @@
     ],
     "slug": "ov-app-frontend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
-    "stack": ["React", "TypeScript"],
+    "languages": ["TypeScript/JavaScript", "CSS"],
+    "libraries": ["React"],
     "images": [""],
     "category": "Frontend",
     "lastUpdated": "2025-03-13",
@@ -163,7 +171,8 @@
     ],
     "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
-    "stack": ["Kotlin", "Compose Multiplatform", "Room"],
+    "languages": ["Kotlin"],
+    "libraries": ["Jetpack Compose", "Room"],
     "images": [""],
     "category": "Mobile",
     "lastUpdated": "2024-11-02",

@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
 import styles from "./Projects.module.css";
-import { getRecentProjects } from "../../helper";
-import { Link } from "react-router";
 import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 import useProjects from "../../hooks/useProjects";
 import ProjectCategoryCard from "../ProjectCategoryCard/ProjectCategoryCard";

@@ -2,7 +2,7 @@ import { matchPath, NavLink, useLocation } from "react-router";
 import { useState } from "react";
 import styles from "./Navigation.module.css";
 import Hamburger from "../Hamburger/Hamburger";
-import { navItems } from "../Router";
+import { navItems } from "../../Router";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
