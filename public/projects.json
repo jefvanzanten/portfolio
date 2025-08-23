@@ -103,7 +103,7 @@
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
     "languages": ["TypeScript"],
-    "libraries": ["React Native", "Expo", "Better-Auth", "TanStackQuery"],
+    "libraries": ["React-Native", "Expo", "Better-Auth", "TanStackQuery"],
     "images": [""],
     "category": "Mobile",
     "lastUpdated": "2025-06-10",
