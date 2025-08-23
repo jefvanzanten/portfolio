@@ -1,5 +1,24 @@
-export type Language = "TypeScript/JavaScript" | "CSS" | "Kotlin" | "Java";
-export type Library = "React" | "Vue" | "Angular" | "Svelte";
+export type Language = "TypeScript" | "CSS" | "Kotlin" | "Java";
+
+export type Category =
+  | "Frontend"
+  | "Backend"
+  | "Mobile"
+  | "Fullstack"
+  | "Desktop";
+
+export type Library =
+  | "React"
+  | "TailwindCSS"
+  | "React-Router"
+  | "Express"
+  | "Drizzle"
+  | "Better-Auth"
+  | "TanStackQuery"
+  | "Nextjs"
+  | "React-Native"
+  | "JetpackCompose"
+  | "JavaFX";
 
 export type Project = {
   id: number;
@@ -8,9 +27,9 @@ export type Project = {
   slug: string;
   url: string;
   languages: Language[];
-  libraries: string[];
+  libraries: Library[];
   images: string[];
-  category: "Frontend" | "Backend" | "Mobile" | "Fullstack";
+  category: Category;
   lastUpdated: string;
   highlighted: boolean;
 };

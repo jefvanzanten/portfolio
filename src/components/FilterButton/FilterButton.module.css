@@ -13,3 +13,7 @@
   outline: none;
   box-shadow: none;
 }
+
+.active {
+  background-color: #c1c7c6c1;
+}

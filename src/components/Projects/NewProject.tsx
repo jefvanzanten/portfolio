@@ -1,26 +1,63 @@
 import styles from "../ProjectsCategory/ProjectsCategory.module.css";
 import useProjects from "../../hooks/useProjects";
 import SocialLink from "../SocialLink/SocialLink";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Language, Library } from "../../types";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterMenu from "../FilterMenu/FilterMenu";
+import { useSearchParams } from "react-router";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedLanguages, setSelectedLanguages] = useState<Language[]>([]);
-  const [selectedLibraries, setSelectedLibraries] = useState<Library[]>([]);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const getFiltersFromURL = () => {
+    const languages =
+      (searchParams
+        .get("languages")
+        ?.split(",")
+        .filter(Boolean) as Language[]) || [];
+    const libraries =
+      (searchParams
+        .get("libraries")
+        ?.split(",")
+        .filter(Boolean) as Library[]) || [];
+    return { languages, libraries };
+  };
+
+  const { languages: urlLanguages, libraries: urlLibraries } =
+    getFiltersFromURL();
+  const [selectedLanguages, setSelectedLanguages] =
+    useState<Language[]>(urlLanguages);
+  const [selectedLibraries, setSelectedLibraries] =
+    useState<Library[]>(urlLibraries);
+
+  // Update URL wanneer filters veranderen
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    if (selectedLanguages.length > 0) {
+      params.set("languages", selectedLanguages.join(","));
+    }
+
+    if (selectedLibraries.length > 0) {
+      params.set("libraries", selectedLibraries.join(","));
+    }
+
+    // Update URL zonder page reload
+    setSearchParams(params, { replace: true });
+  }, [selectedLanguages, selectedLibraries, setSearchParams]);
 
   const getFilteredProjects = () => {
     return projects.filter((project) => {
       const languageMatch =
         selectedLanguages.length === 0 ||
-        selectedLanguages.some((lang) => project.languages.includes(lang));
+        selectedLanguages.every((lang) => project.languages.includes(lang));
 
       const libraryMatch =
         selectedLibraries.length === 0 ||
-        selectedLibraries.some((lib) => project.libraries.includes(lib));
+        selectedLibraries.every((lib) => project.libraries.includes(lib));
 
       return languageMatch && libraryMatch;
     });
@@ -28,13 +65,21 @@ export default function NewProjects() {
 
   const filtered = getFilteredProjects();
 
-  const addLanguageToFilter = (language: Language): void => {
-    setSelectedLanguages((prev) => [...prev, language]);
-  };
+  const toggleLanguage = useCallback((language: Language) => {
+    setSelectedLanguages((prev) =>
+      prev.includes(language)
+        ? prev.filter((l) => l !== language)
+        : [...prev, language]
+    );
+  }, []);
 
-  const addLibraryToFilter = (library: Library): void => {
-    setSelectedLibraries((prev) => [...prev, library]);
-  };
+  const toggleLibrary = useCallback((library: Library) => {
+    setSelectedLibraries((prev) =>
+      prev.includes(library)
+        ? prev.filter((l) => l !== library)
+        : [...prev, library]
+    );
+  }, []);
 
   if (loading) {
     return <div>Loading...</div>;
@@ -42,25 +87,25 @@ export default function NewProjects() {
 
   return (
     <main className={styles.main}>
+      {isOpen && (
+        <FilterMenu
+          closemenu={() => setIsOpen(false)}
+          selectedLanguages={selectedLanguages}
+          selectedLibraries={selectedLibraries}
+          toggleLanguage={toggleLanguage}
+          toggleLibrary={toggleLibrary}
+        />
+      )}
       <section className={styles.section}>
         <div className={styles["filter-button-container"]}>
-          <FilterButton handleClick={() => setIsOpen(!isOpen)} />
-        </div>
-        {isOpen && (
-          <FilterMenu
-            closemenu={() => setIsOpen(false)}
-            setSelectedLanguages={addLanguageToFilter}
-            setSelectedLibraries={addLibraryToFilter}
+          <FilterButton
+            isActive={isOpen}
+            handleClick={() => setIsOpen(!isOpen)}
           />
-        )}
+        </div>
         <div className={styles["project-category-list"]}>
           {filtered.map((project) => (
-            // <Link
-            //   to={`/projects/${category}/${project.slug}`}
-            //   className={styles.container}
-            //   key={project.name}
-            // >
-            <div className={styles.container}>
+            <div className={styles.container} key={project.name}>
               <div className={styles["text-container"]}>
                 <h2 className={styles.h2}>{project.name}</h2>
                 <p className={styles.description}>{project.description}</p>
@@ -71,7 +116,6 @@ export default function NewProjects() {
                 url={project.url}
               />
             </div>
-            // </Link>
           ))}
         </div>
       </section>

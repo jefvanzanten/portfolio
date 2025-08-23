@@ -1,28 +1,28 @@
 [
   {
-    "id": 9,
+    "id": 10,
     "name": "Task Manager",
     "description": [
       "A Task Manager like Notion, Todoist, Tick Tick, etc for organizing tasks and projects."
     ],
     "slug": "task-manager",
     "url": "https://github.com/JeffreyvnZanten/task-manager-nextjs",
-    "languages": ["TypeScript/JavaScript"],
-    "libraries": ["React", "Nextjs", "Tailwind CSS", "Drizzle", "Better-Auth"],
+    "languages": ["TypeScript"],
+    "libraries": ["Nextjs", "TailwindCSS", "Drizzle", "Better-Auth"],
     "images": [""],
     "category": "Fullstack",
     "lastUpdated": "2025-08-22",
     "highlighted": true
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Make24",
     "description": [
       "A math game where the player has to make the sum of 24 by using all 4 numbers with operators."
     ],
     "slug": "make24",
     "url": "https://github.com/JeffreyvnZanten/make24",
-    "languages": ["TypeScript/JavaScript", "CSS"],
+    "languages": ["TypeScript", "CSS"],
     "libraries": ["React"],
     "images": [""],
     "category": "Frontend",
@@ -30,7 +30,7 @@
     "highlighted": true
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Portfolio",
     "description": [
       "Dit is het project van de site waar je je nu op bevindt.\n",
@@ -40,8 +40,8 @@
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
-    "languages": ["TypeScript/JavaScript", "CSS"],
-    "libraries": ["React", "React Router"],
+    "languages": ["TypeScript", "CSS"],
+    "libraries": ["React", "React-Router"],
     "images": [
       "/screenshots/portfolio/mobile landingpage.png",
       "/screenshots/portfolio/mobile projectpage.png",
@@ -53,7 +53,7 @@
     "highlighted": true
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Todo - SSR Web Client",
     "description": [
       "Dit is een Server Side Rendered web client die met de Todo Backend communiceert",
@@ -63,15 +63,15 @@
     ],
     "slug": "todo-ssr",
     "url": "https://github.com/JeffreyvnZanten/todo-nextjs/",
-    "languages": ["TypeScript/JavaScript", "HTML"],
-    "libraries": ["Nextjs", "React"],
+    "languages": ["TypeScript"],
+    "libraries": ["Nextjs"],
     "images": [""],
     "category": "Fullstack",
     "lastUpdated": "2025-05-22",
     "highlighted": false
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Todo - Backend",
     "description": [
       "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei. ",
@@ -83,7 +83,7 @@
     ],
     "slug": "todo-backend",
     "url": "https://github.com/JeffreyvnZanten/todobackend",
-    "languages": ["TypeScript/JavaScript"],
+    "languages": ["TypeScript"],
     "libraries": ["Express", "Drizzle", "Better-Auth", "CORS", "dotenv"],
     "images": [""],
     "category": "Backend",
@@ -91,7 +91,7 @@
     "highlighted": true
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Todo - Mobile App",
     "description": [
       "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
@@ -102,15 +102,15 @@
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/JeffreyvnZanten/TodoRN",
-    "languages": ["TypeScript/JavaScript"],
-    "libraries": ["React Native", "Expo", "Better-Auth", "TanStack Query"],
+    "languages": ["TypeScript"],
+    "libraries": ["React Native", "Expo", "Better-Auth", "TanStackQuery"],
     "images": [""],
     "category": "Mobile",
     "lastUpdated": "2025-06-10",
     "highlighted": true
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Reeksenspel",
     "description": [
       "Dit is een project waarbij ik heb geprobeerd een spel te maken met React, TypeScript en Tailwind CSS.",
@@ -119,15 +119,15 @@
     ],
     "slug": "reeksenspel",
     "url": "https://github.com/JeffreyvnZanten/reeksenspel/",
-    "languages": ["TypeScript/JavaScript", "HTML"],
-    "libraries": ["React", "Tailwind CSS"],
+    "languages": ["TypeScript"],
+    "libraries": ["React", "TailwindCSS"],
     "images": [""],
     "category": "Frontend",
     "lastUpdated": "2025-04-22",
     "highlighted": false
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Fase 2 OV App - Backend",
     "description": [
       "Dit is de backend van de OV applicatie van het project van de 2e fase.",
@@ -137,7 +137,7 @@
     ],
     "slug": "ov-app-backend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/backend",
-    "languages": ["TypeScript/JavaScript"],
+    "languages": ["TypeScript"],
     "libraries": ["Express", "CORS", "Jest"],
     "images": [""],
     "category": "Backend",
@@ -145,7 +145,7 @@
     "highlighted": false
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Fase 2 OV App - Frontend",
     "description": [
       "Dit is de frontend van de OV applicatie van het project van de 2e fase.",
@@ -154,7 +154,7 @@
     ],
     "slug": "ov-app-frontend",
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase2-OV-app/tree/main/frontend",
-    "languages": ["TypeScript/JavaScript", "CSS"],
+    "languages": ["TypeScript", "CSS"],
     "libraries": ["React"],
     "images": [""],
     "category": "Frontend",
@@ -162,7 +162,7 @@
     "highlighted": false
   },
   {
-    "id": 0,
+    "id": 1,
     "name": "SupplementTracker - Android",
     "description": [
       "Dit is een van de eerste native Android apps die ik heb gemaakt.",
@@ -172,10 +172,28 @@
     "slug": "supplement-tracker",
     "url": "https://github.com/JeffreyvnZanten/Supplement-Tracker-Android-",
     "languages": ["Kotlin"],
-    "libraries": ["Jetpack Compose", "Room"],
+    "libraries": ["JetpackCompose", "Room"],
     "images": [""],
     "category": "Mobile",
     "lastUpdated": "2024-11-02",
+    "highlighted": false
+  },
+  {
+    "id": 0,
+    "name": "Fase 1 Picit app - Frontend",
+    "description": [
+      "Dit is het eerste schoolproject waarbij we in teamverband werkten.\n",
+      "Gemaakt met Java en JavaFX.",
+      "\n\n",
+      "Met deze applicatie kan de gebruiker fruit in een winkelwagentje plaatsen en de bestelling afronden."
+    ],
+    "slug": "picit-app-frontend",
+    "url": "https://github.com/JeffreyvnZanten/ADSD-Fase1-Picit-app",
+    "languages": ["Java"],
+    "libraries": ["JavaFX"],
+    "images": [""],
+    "category": "Desktop",
+    "lastUpdated": "2024-06-01",
     "highlighted": false
   }
 ]

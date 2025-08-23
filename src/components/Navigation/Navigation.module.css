@@ -52,7 +52,7 @@
 }
 
 .active {
-  border-color: rgba(12, 217, 224, 0.767);
+  border-color: rgba(227, 227, 227, 0.767);
 }
 
 @media (max-width: 1800px) {

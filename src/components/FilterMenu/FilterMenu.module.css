@@ -1,31 +1,29 @@
 .container {
   position: absolute;
-  top: 4.4em;
-  left: 0;
-  width: 60%;
+  top: 8.4em;
+  left: 4em;
+  width: 22%;
   height: 50vh;
   background: rgba(6, 14, 13, 0.9);
   border: 1px solid rgb(206, 206, 206);
   border-radius: 1em;
-  padding: 1em;
+  padding: 2em 1em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
+}
+
+.legend {
+  padding: 0.1em 1em;
 }
 
 .libraries {
   display: flex;
   flex-direction: row;
+  gap: 1em;
 }
 
-.groupLeft {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  border: rgba(174, 185, 184, 0.9);
-}
-
-.groupRight {
+.libraryGroup {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -33,7 +31,9 @@
 }
 
 .fieldset {
-  border: none;
+  border: 1px solid rgba(174, 185, 184, 0.9);
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
