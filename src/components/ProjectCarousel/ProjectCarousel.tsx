@@ -1,11 +1,11 @@
 import { useState } from "react";
 import styles from "./ProjectCarousel.module.css";
-import { Project } from "../Projects/Projects";
 import CarouselButton from "./CarouselButton";
 import { Link } from "react-router";
 import NavButton from "../NavButton/NavButton";
 import SocialLink from "../SocialLink/SocialLink";
 import ProjectImages from "../ProjectImages/ProjectImages";
+import { Project } from "../../types";
 
 type ProjectCarouselProps = {
   projects: Project[];

@@ -1,6 +1,6 @@
+import { Project } from "../../types";
 import styles from "./ProjectCategoryCard.module.css";
 import { Link } from "react-router";
-import { Project } from "../Projects/Projects";
 
 type ProjectCategoryCardProps = {
   projects: Project[];

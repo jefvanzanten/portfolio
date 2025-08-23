@@ -1,6 +1,6 @@
 import React from "react";
-import { Project } from "../Projects/Projects";
 import styles from "./ProjectImages.module.css";
+import { Project } from "../../types";
 
 const ProjectImages = ({ currentProject }: { currentProject: Project }) => {
   return (

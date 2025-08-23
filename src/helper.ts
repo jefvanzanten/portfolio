@@ -1,4 +1,4 @@
-import { Project } from "./components/Projects/Projects";
+import { Project } from "./types";
 
 export function getRecentProjects(projects: Project[]) {
   const recentProjects = projects.sort((a, b) => {
