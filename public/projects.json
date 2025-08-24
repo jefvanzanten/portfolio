@@ -128,7 +128,7 @@
   },
   {
     "id": 3,
-    "name": "Fase 2 OV App - Backend",
+    "name": "Schoolproject: OV app (backend)",
     "description": [
       "Dit is de backend van de OV applicatie van het project van de 2e fase.",
       "\n\n",
@@ -146,7 +146,7 @@
   },
   {
     "id": 2,
-    "name": "Fase 2 OV App - Frontend",
+    "name": "Schoolproject: OV app (frontend)",
     "description": [
       "Dit is de frontend van de OV applicatie van het project van de 2e fase.",
       "\n\n",
@@ -163,7 +163,7 @@
   },
   {
     "id": 1,
-    "name": "SupplementTracker - Android",
+    "name": "SupplementTracker",
     "description": [
       "Dit is een van de eerste native Android apps die ik heb gemaakt.",
       "\n\n",
@@ -180,7 +180,7 @@
   },
   {
     "id": 0,
-    "name": "Fase 1 Picit app - Frontend",
+    "name": "Schoolproject: Picit",
     "description": [
       "Dit is het eerste schoolproject waarbij we in teamverband werkten.\n",
       "Gemaakt met Java en JavaFX.",
