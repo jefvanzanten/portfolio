@@ -6,6 +6,7 @@ import { Language, Library } from "../../types";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
+import GithubLink from "../GithubLink/GithubLink";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();
@@ -110,7 +111,7 @@ export default function NewProjects() {
                 <h2 className={styles.h2}>{project.name}</h2>
                 <p className={styles.description}>{project.description}</p>
               </div>
-              <SocialLink
+              <GithubLink
                 name="Github"
                 iconUrl="/icons/github-mark-white.svg"
                 url={project.url}
