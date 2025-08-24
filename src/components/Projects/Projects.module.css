@@ -83,7 +83,7 @@
   }
 
   .filter-button-container {
-    max-height: 6vh;
+    max-height: 8vh;
   }
 
   .container {
@@ -97,5 +97,11 @@
 
   .description {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .filter-button-container {
+    max-height: 6vh;
   }
 }
