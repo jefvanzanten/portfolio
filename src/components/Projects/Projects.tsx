@@ -7,6 +7,7 @@ import FilterButton from "../FilterButton/FilterButton";
 import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
 import GithubLink from "../GithubLink/GithubLink";
+import FilterTagBar from "../FilterTagBar/FilterTagBar";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();
@@ -89,6 +90,24 @@ export default function NewProjects() {
   return (
     <main className={styles.main}>
       <section className={styles.section}>
+        <div className={styles["filter-button-container"]}>
+          <FilterButton
+            isActive={isOpen}
+            handleClick={() => setIsOpen(!isOpen)}
+          />
+          {selectedLanguages.length > 0 || selectedLibraries.length > 0 ? (
+            <FilterTagBar
+              tags={[...selectedLanguages, ...selectedLibraries]}
+              onTagClick={(tag) => {
+                if (selectedLanguages.includes(tag as Language)) {
+                  toggleLanguage(tag as Language);
+                } else {
+                  toggleLibrary(tag as Library);
+                }
+              }}
+            />
+          ) : null}
+        </div>
         {isOpen && (
           <FilterMenu
             closemenu={() => setIsOpen(false)}
@@ -98,12 +117,6 @@ export default function NewProjects() {
             toggleLibrary={toggleLibrary}
           />
         )}
-        <div className={styles["filter-button-container"]}>
-          <FilterButton
-            isActive={isOpen}
-            handleClick={() => setIsOpen(!isOpen)}
-          />
-        </div>
         <div className={styles["project-category-list"]}>
           {filtered.map((project) => (
             <div className={styles.container} key={project.name}>
