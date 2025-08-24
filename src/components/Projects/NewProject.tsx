@@ -87,16 +87,16 @@ export default function NewProjects() {
 
   return (
     <main className={styles.main}>
-      {isOpen && (
-        <FilterMenu
-          closemenu={() => setIsOpen(false)}
-          selectedLanguages={selectedLanguages}
-          selectedLibraries={selectedLibraries}
-          toggleLanguage={toggleLanguage}
-          toggleLibrary={toggleLibrary}
-        />
-      )}
       <section className={styles.section}>
+        {isOpen && (
+          <FilterMenu
+            closemenu={() => setIsOpen(false)}
+            selectedLanguages={selectedLanguages}
+            selectedLibraries={selectedLibraries}
+            toggleLanguage={toggleLanguage}
+            toggleLibrary={toggleLibrary}
+          />
+        )}
         <div className={styles["filter-button-container"]}>
           <FilterButton
             isActive={isOpen}

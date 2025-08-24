@@ -1,8 +1,8 @@
 .container {
   position: absolute;
-  top: 8.4em;
-  left: 4em;
-  width: 22%;
+  top: 5em;
+  left: 0;
+  width: 100%;
   height: 50vh;
   background: rgba(6, 14, 13, 0.9);
   border: 1px solid rgb(206, 206, 206);
@@ -41,4 +41,16 @@
   flex-direction: row;
   padding: 0.5em;
   gap: 0.5em;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    top: 4em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
 }
