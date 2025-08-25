@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import styles from "./FilterMenu.module.css";
 import { Language, Library } from "../../types";
 
@@ -17,21 +17,35 @@ export default function FilterMenu({
   toggleLanguage,
   toggleLibrary,
 }: FilterMenuProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node)
+      ) {
+        closemenu();
+      }
+    };
+
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         closemenu();
       }
     };
 
+    document.addEventListener("mousedown", handleClickOutside);
     document.addEventListener("keydown", handleKeyDown);
+
     return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, [closemenu]);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={containerRef}>
       <fieldset className={styles.fieldset}>
         <legend className={styles.legend}>Programmeer- & script-talen</legend>
         <div className={styles.item}>
