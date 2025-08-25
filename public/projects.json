@@ -3,7 +3,11 @@
     "id": 10,
     "name": "Task Manager",
     "description": [
-      "A Task Manager like Notion, Todoist, Tick Tick, etc for organizing tasks and projects."
+      "Een taak beheerder, waarmee je taken en projecten kunt organiseren, zoals bijv. Notion en Tick Tick. ",
+      "De projecten met taken worden ingeladen op basis van welk profiel er is ingelogd.",
+      "\n\n",
+      "De applicatie is gemaakt met Nextjs en TypeScript en voert alle database operaties server side uit. ",
+      "De data wordt opgeslagen in een lokale database en blijft bewaard na het afsluiten van de applicatie."
     ],
     "slug": "task-manager",
     "url": "https://github.com/JeffreyvnZanten/task-manager-nextjs",
@@ -18,7 +22,9 @@
     "id": 9,
     "name": "Make24",
     "description": [
-      "A math game where the player has to make the sum of 24 by using all 4 numbers with operators."
+      "Een wiskunde spel waarbij de speler de som van 24 moet maken door alle 4 getallen met operatoren te gebruiken.",
+      "\n\n",
+      "Dit spel is volledig gemaakt met React, TypeScript en CSS"
     ],
     "slug": "make24",
     "url": "https://github.com/JeffreyvnZanten/make24",
@@ -33,10 +39,10 @@
     "id": 8,
     "name": "Portfolio",
     "description": [
-      "Dit is het project van de site waar je je nu op bevindt.\n",
+      "Dit project is mijn persoonlijke website, waarbij elk openbare project op Github kort wordt toegelicht en van een link is voorzien.\n",
       "Het is een simpele statische site die client side wordt gerendered. ",
       "\n\n",
-      "Elk project heeft zijn eigen route om op deze manier makkelijker links te delen met derden of om op te slaan om later weer te bekijken."
+      "De voornaamste reden waarom deze website bestaat is om een link te delen met daarin de relevante programmeertalen en/of tech stack en direct de door mij gemaakte projecten met deze criteria te laten zien."
     ],
     "slug": "portfolio",
     "url": "https://github.com/JeffreyvnZanten/portfolio/",
@@ -54,9 +60,9 @@
   },
   {
     "id": 7,
-    "name": "Todo - SSR Web Client",
+    "name": "Todo client (web)",
     "description": [
-      "Dit is een Server Side Rendered web client die met de Todo Backend communiceert",
+      "Dit is een Server Side Rendered web client die met de Todo server communiceert",
       "\n\n",
       "Voor nu nog heel simpel en haalt alleen de data op en laat het zien.\n",
       "De planning is om een test gebruiker account in te richten voor demo doeleinden."
@@ -72,7 +78,7 @@
   },
   {
     "id": 6,
-    "name": "Todo - Backend",
+    "name": "Todo server (REST API)",
     "description": [
       "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei. ",
       "Het is een REST API met een beveiligde POST endpoint",
@@ -92,9 +98,9 @@
   },
   {
     "id": 5,
-    "name": "Todo - Mobile App",
+    "name": "Todo client (mobile)",
     "description": [
-      "Dit is de mobile app die gebruik maakt van de REST API van de Todo - Backend.",
+      "Dit is de mobile app die gebruik maakt van de REST API van de Todo server.",
       "\n\n",
       "Met deze app kan je todo's aanmaken en bewerken.\n",
       "Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
