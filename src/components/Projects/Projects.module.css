@@ -41,7 +41,6 @@
   border-radius: 1em;
   width: 100%;
   padding: 1em;
-  cursor: pointer;
   justify-content: space-between;
 }
 
@@ -72,13 +71,13 @@
   }
 
   .section {
-    width: 48%;
+    width: 80%;
     padding: 0;
     /* border: 1px solid rgba(12, 217, 224, 0.767); */
   }
 
   .project-category-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .filter-button-container {
@@ -102,5 +101,9 @@
 @media screen and (min-width: 1920px) {
   .filter-button-container {
     max-height: 6vh;
+  }
+
+  .project-category-list {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

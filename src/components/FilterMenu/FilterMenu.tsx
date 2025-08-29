@@ -25,7 +25,7 @@ export default function FilterMenu({
         containerRef.current &&
         !containerRef.current.contains(event.target as Node)
       ) {
-        closemenu();
+        setTimeout(() => closemenu(), 300);
       }
     };
 
