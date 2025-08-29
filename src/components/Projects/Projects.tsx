@@ -1,6 +1,5 @@
 import styles from "../Projects/Projects.module.css";
 import useProjects from "../../hooks/useProjects";
-import SocialLink from "../SocialLink/SocialLink";
 import { useCallback, useEffect, useState } from "react";
 import { Language, Library } from "../../types";
 import FilterButton from "../FilterButton/FilterButton";
@@ -35,7 +34,6 @@ export default function NewProjects() {
   const [selectedLibraries, setSelectedLibraries] =
     useState<Library[]>(urlLibraries);
 
-  // Update URL wanneer filters veranderen
   useEffect(() => {
     const params = new URLSearchParams();
 
@@ -47,12 +45,15 @@ export default function NewProjects() {
       params.set("libraries", selectedLibraries.join(","));
     }
 
-    // Update URL zonder page reload
     setSearchParams(params, { replace: true });
   }, [selectedLanguages, selectedLibraries, setSearchParams]);
 
   const getFilteredProjects = () => {
     return projects.filter((project) => {
+      if (!project.languages || !project.libraries) {
+        return false;
+      }
+
       const languageMatch =
         selectedLanguages.length === 0 ||
         selectedLanguages.every((lang) => project.languages.includes(lang));
