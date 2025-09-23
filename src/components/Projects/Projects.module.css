@@ -28,8 +28,9 @@ main {
   flex-direction: column;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   justify-content: center;
-  gap: 1.5em;
+  gap: 2em;
   padding-bottom: 8vh;
+  /* border: 1px solid white; */
 }
 
 .h1 {
@@ -51,6 +52,7 @@ main {
 
   .filter-container {
     max-height: 8vh;
+    padding-left: 1em;
   }
 
   .project-container {
@@ -58,6 +60,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
+    padding-left: 1em;
   }
 }
 
