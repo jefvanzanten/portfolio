@@ -14,6 +14,7 @@
     "languages": ["TypeScript"],
     "libraries": ["Nextjs", "TailwindCSS", "Drizzle", "Better-Auth"],
     "images": [""],
+    "coverUrl": "/covers/task-manager-cover.png",
     "category": "Fullstack",
     "lastUpdated": "2025-08-22",
     "highlighted": true
@@ -31,6 +32,7 @@
     "languages": ["TypeScript", "CSS"],
     "libraries": ["React"],
     "images": [""],
+    "coverUrl": "/covers/make24_cover.png",
     "category": "Frontend",
     "lastUpdated": "2025-07-24",
     "highlighted": true
@@ -54,27 +56,10 @@
       "/screenshots/portfolio/desktop landingpage.png",
       "/screenshots/portfolio/desktop projectpage.png"
     ],
+    "coverUrl": "/covers/portfolio_cover.png",
     "category": "Frontend",
     "lastUpdated": "2025-06-13",
     "highlighted": true
-  },
-  {
-    "id": 7,
-    "name": "Todo client (web)",
-    "description": [
-      "Dit is een Server Side Rendered web client die met de Todo server communiceert",
-      "\n\n",
-      "Voor nu nog heel simpel en haalt alleen de data op en laat het zien.\n",
-      "De planning is om een test gebruiker account in te richten voor demo doeleinden."
-    ],
-    "slug": "todo-ssr",
-    "url": "https://github.com/JeffreyvnZanten/todo-nextjs/",
-    "languages": ["TypeScript"],
-    "libraries": ["Nextjs"],
-    "images": [""],
-    "category": "Fullstack",
-    "lastUpdated": "2025-05-22",
-    "highlighted": false
   },
   {
     "id": 6,
@@ -92,6 +77,7 @@
     "languages": ["TypeScript"],
     "libraries": ["Express", "Drizzle", "Better-Auth", "CORS", "dotenv"],
     "images": [""],
+    "coverUrl": "/covers/express_custom_cover.png",
     "category": "Backend",
     "lastUpdated": "2025-05-26",
     "highlighted": true
@@ -111,6 +97,7 @@
     "languages": ["TypeScript"],
     "libraries": ["React-Native", "Expo", "Better-Auth", "TanStackQuery"],
     "images": [""],
+    "coverUrl": "/covers/todo_client_cover.png",
     "category": "Mobile",
     "lastUpdated": "2025-06-10",
     "highlighted": true
@@ -128,6 +115,7 @@
     "languages": ["TypeScript"],
     "libraries": ["React", "TailwindCSS"],
     "images": [""],
+    "coverUrl": "/covers/reeksenspel_cover.png",
     "category": "Frontend",
     "lastUpdated": "2025-04-22",
     "highlighted": false
@@ -146,6 +134,7 @@
     "languages": ["TypeScript"],
     "libraries": ["Express", "CORS", "Jest"],
     "images": [""],
+    "coverUrl": "/covers/hu_cover.png",
     "category": "Backend",
     "lastUpdated": "2025-03-13",
     "highlighted": false
@@ -163,6 +152,7 @@
     "languages": ["TypeScript", "CSS"],
     "libraries": ["React"],
     "images": [""],
+    "coverUrl": "/covers/hu_cover.png",
     "category": "Frontend",
     "lastUpdated": "2025-03-13",
     "highlighted": false
@@ -180,6 +170,7 @@
     "languages": ["Kotlin"],
     "libraries": ["JetpackCompose", "Room"],
     "images": [""],
+    "coverUrl": "/covers/supplement_tracker_cover.png",
     "category": "Mobile",
     "lastUpdated": "2024-11-02",
     "highlighted": false
@@ -198,6 +189,7 @@
     "languages": ["Java"],
     "libraries": ["JavaFX"],
     "images": [""],
+    "coverUrl": "/covers/hu_cover.png",
     "category": "Desktop",
     "lastUpdated": "2024-06-01",
     "highlighted": false
@@ -215,6 +207,7 @@
     "url": "https://github.com/JeffreyvnZanten/ADSD-Fase1-Fitness-app",
     "languages": ["Java"],
     "images": [""],
+    "coverUrl": "/covers/hu_cover.png",
     "category": "Desktop",
     "lastUpdated": "2024-03-31",
     "highlighted": false

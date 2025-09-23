@@ -4,8 +4,9 @@
   left: 12em;
   width: 100%;
   min-height: 50vh;
-  background: rgba(6, 14, 13, 0.9);
-  border: 1px solid rgb(206, 206, 206);
+  background: rgba(20, 20, 20, 0.9);
+  color: rgb(175, 175, 175);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 1em;
   padding: 2em 1em;
   display: flex;
@@ -15,12 +16,14 @@
 
 .legend {
   padding: 0.1em 1em;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .libraries {
   display: flex;
   flex-direction: row;
   gap: 1em;
+  border: 1px solid rgba(174, 185, 184, 0.4);
 }
 
 .libraryGroup {
@@ -31,7 +34,7 @@
 }
 
 .fieldset {
-  border: 1px solid rgba(174, 185, 184, 0.9);
+  border: 1px solid rgba(174, 185, 184, 0.4);
   display: flex;
   flex-direction: column;
 }
@@ -49,7 +52,7 @@
 @media screen and (min-width: 1024px) {
   .container {
     width: 40%;
-    top: 4em;
-    left: 8em;
+    top: 8em;
+    left: 7em;
   }
 }

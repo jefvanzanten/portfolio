@@ -4,8 +4,9 @@
   align-items: center;
   box-sizing: border-box;
   padding: 0.5em;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 2em;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .logo {
@@ -16,7 +17,7 @@
 a,
 a:link,
 a:visited {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
 }
 
@@ -30,8 +31,12 @@ a:visited {
     padding: 0.5em;
   }
 
+  .p {
+    font-size: 0.8rem;
+  }
+
   .logo {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
   }
 }

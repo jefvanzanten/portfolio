@@ -7,7 +7,7 @@ import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
 import GithubLink from "../GithubLink/GithubLink";
 import FilterTagBar from "../FilterTagBar/FilterTagBar";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "../ProjectCard/ProjectCardNew";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();

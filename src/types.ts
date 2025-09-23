@@ -32,4 +32,5 @@ export type Project = {
   category: Category;
   lastUpdated: string;
   highlighted: boolean;
+  coverUrl: string;
 };
