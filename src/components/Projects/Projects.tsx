@@ -7,6 +7,7 @@ import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
 import GithubLink from "../GithubLink/GithubLink";
 import FilterTagBar from "../FilterTagBar/FilterTagBar";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();
@@ -89,9 +90,9 @@ export default function NewProjects() {
   }
 
   return (
-    <main className={styles.main}>
-      <section className={styles.section}>
-        <div className={styles["filter-button-container"]}>
+    <main>
+      <div className={styles["content-container"]}>
+        <section className={styles["filter-container"]}>
           <FilterButton
             isActive={isOpen}
             handleClick={() => setIsOpen(!isOpen)}
@@ -108,7 +109,7 @@ export default function NewProjects() {
               }}
             />
           ) : null}
-        </div>
+        </section>
         {isOpen && (
           <FilterMenu
             closemenu={() => setIsOpen(false)}
@@ -118,22 +119,12 @@ export default function NewProjects() {
             toggleLibrary={toggleLibrary}
           />
         )}
-        <div className={styles["project-category-list"]}>
+        <section className={styles["project-container"]}>
           {filtered.map((project) => (
-            <div className={styles.container} key={project.name}>
-              <div className={styles["text-container"]}>
-                <h2 className={styles.h2}>{project.name}</h2>
-                <p className={styles.description}>{project.description}</p>
-              </div>
-              <GithubLink
-                name="Github"
-                iconUrl="/icons/github-mark-white.svg"
-                url={project.url}
-              />
-            </div>
+            <ProjectCard key={project.id} project={project} />
           ))}
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   );
 }

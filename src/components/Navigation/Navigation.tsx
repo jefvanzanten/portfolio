@@ -5,9 +5,13 @@ import Hamburger from "../Hamburger/Hamburger";
 import { navItems } from "../../Router";
 
 export default function Navigation() {
+  // state used for the hamburger menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // variable that saves the current location
   const location = useLocation();
 
+  // Save the active navigation item in a variable
   const activeItem =
     navItems.find((item) =>
       matchPath(
@@ -16,7 +20,10 @@ export default function Navigation() {
       )
     ) ?? navItems[0];
 
-  const toggleMenu = () => setIsMenuOpen((o) => !o);
+  // Toggle function for the hamburger menu
+  const toggleMenu = () => setIsMenuOpen((isOpen) => !isOpen);
+
+  // If the menu is toggled and the user clicked a link it needs to close the menu
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
