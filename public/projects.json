@@ -1,5 +1,24 @@
 [
   {
+    "id": 11,
+    "name": "Game Collection",
+    "description": [
+      "Deze game collectie website is gemaakt met doel om in mijn kringen ",
+      "te laten zien welke games ik allemaal heb om multiplayer te spelen.",
+      "\n\n",
+      "Met de filters kan worden gekeken welke games gespeeld kunnen worden met de middelen aanwezig op dat moment."
+    ],
+    "slug": "game-collection",
+    "url": "https://github.com/JeffreyvnZanten/game-collection",
+    "languages": ["TypeScript", "CSS"],
+    "libraries": ["React"],
+    "images": [""],
+    "coverUrl": "/covers/game-collection.png",
+    "category": "Frontend",
+    "lastUpdated": "2025-09-23",
+    "highlighted": true
+  },
+  {
     "id": 10,
     "name": "Task Manager",
     "description": [
