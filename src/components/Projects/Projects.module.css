@@ -52,7 +52,7 @@ main {
 
   .filter-container {
     max-height: 8vh;
-    padding-left: 1em;
+    padding-left: 6em;
   }
 
   .project-container {
@@ -60,7 +60,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    padding-left: 1em;
+    padding-left: 6em;
   }
 }
 
