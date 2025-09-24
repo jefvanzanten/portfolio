@@ -72,23 +72,11 @@
 
 @media screen and (min-width: 1024px) {
   .project-card-container {
-    /* padding: 2em; */
-    max-inline-size: 360px;
     min-height: 26vh;
   }
 
   .title {
     font-size: 1rem;
     padding: 0.5em 0;
-  }
-
-  /* .description {
-    font-size: 1rem;
-  } */
-}
-
-@media screen and (min-width: 1920px) {
-  .project-card-container {
-    max-inline-size: 420px;
   }
 }
