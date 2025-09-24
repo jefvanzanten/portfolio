@@ -26,7 +26,7 @@ main {
 .project-container {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: center;
   gap: 2em;
   padding-bottom: 8vh;
@@ -46,21 +46,19 @@ main {
   }
 
   .content-container {
-    max-width: 80%;
+    max-width: 90%;
     padding: 0;
   }
 
   .filter-container {
     max-height: 8vh;
-    padding-left: 4em;
   }
 
   .project-container {
     /* grid-template-columns: repeat(auto-fit, minmax(280px, 400px)); */
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
-    padding-left: 4em;
+    justify-content: center;
   }
 }
 
