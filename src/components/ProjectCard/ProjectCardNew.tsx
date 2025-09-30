@@ -17,6 +17,9 @@ function ProjectCard({ project }: ProjectCardProps) {
           {project.libraries.map((library) => (
             <span className={styles.tag}>{library}</span>
           ))}
+          {project.languages.map((language) => (
+            <span className={styles.tag}>{language}</span>
+          ))}
         </div>
       </section>
       <GithubLink
