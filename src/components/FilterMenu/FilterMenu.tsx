@@ -48,35 +48,47 @@ export default function FilterMenu({
     <div className={styles.container} ref={containerRef}>
       <fieldset className={styles.fieldset}>
         <legend className={styles.legend}>Programmeer- & script-talen</legend>
-        <div className={styles.item}>
-          <input
-            onChange={() => toggleLanguage("TypeScript")}
-            checked={selectedLanguages.includes("TypeScript")}
-            type="checkbox"
-            id="typescript"
-            name="languages"
-          />
-          <label htmlFor="typescript">TypeScript</label>
-        </div>
-        <div className={styles.item}>
-          <input
-            onChange={() => toggleLanguage("Kotlin")}
-            checked={selectedLanguages.includes("Kotlin")}
-            type="checkbox"
-            id="kotlin"
-            name="languages"
-          />
-          <label htmlFor="kotlin">Kotlin</label>
-        </div>
-        <div className={styles.item}>
-          <input
-            onChange={() => toggleLanguage("Java")}
-            checked={selectedLanguages.includes("Java")}
-            type="checkbox"
-            id="java"
-            name="languages"
-          />
-          <label htmlFor="java">Java</label>
+        <div className={styles.libraryGroup}>
+          <div className={styles.item}>
+            <input
+              onChange={() => toggleLanguage("TypeScript")}
+              checked={selectedLanguages.includes("TypeScript")}
+              type="checkbox"
+              id="typescript"
+              name="languages"
+            />
+            <label htmlFor="typescript">TypeScript</label>
+          </div>
+          <div className={styles.item}>
+            <input
+              onChange={() => toggleLanguage("Kotlin")}
+              checked={selectedLanguages.includes("Kotlin")}
+              type="checkbox"
+              id="kotlin"
+              name="languages"
+            />
+            <label htmlFor="kotlin">Kotlin</label>
+          </div>
+          <div className={styles.item}>
+            <input
+              onChange={() => toggleLanguage("Java")}
+              checked={selectedLanguages.includes("Java")}
+              type="checkbox"
+              id="java"
+              name="languages"
+            />
+            <label htmlFor="java">Java</label>
+          </div>
+          <div className={styles.item}>
+            <input
+              onChange={() => toggleLanguage("CSS")}
+              checked={selectedLanguages.includes("CSS")}
+              type="checkbox"
+              id="css"
+              name="languages"
+            />
+            <label htmlFor="css">CSS</label>
+          </div>
         </div>
       </fieldset>
 

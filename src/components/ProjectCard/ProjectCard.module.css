@@ -8,7 +8,7 @@
   border-radius: 0.5em;
   width: 100%;
   /* padding: 1em; */
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
   color: rgb(175, 175, 175);
   /* min-height: 32vh; */
 }
@@ -32,6 +32,7 @@
   /* display: flex;
   flex: 1;
   flex-direction: column; */
+  /* min-height: 24em; */
   height: 100%;
   /* border: 1px solid white; */
   padding: 1em;

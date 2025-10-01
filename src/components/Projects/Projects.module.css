@@ -25,7 +25,10 @@ main {
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--card-width), var(--card-width))
+  );
   gap: 2em;
   padding-bottom: 8vh;
   /* border: 1px solid white; */
@@ -46,6 +49,11 @@ main {
   .content-container {
     width: 90%;
     max-width: 90%;
+    justify-content: center;
+  }
+
+  .project-container {
+    justify-content: center;
   }
 
   .filter-container {

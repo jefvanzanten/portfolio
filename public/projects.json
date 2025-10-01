@@ -3,10 +3,8 @@
     "id": 11,
     "name": "Game Collection",
     "description": [
-      "Deze game collectie website is gemaakt met doel om in mijn kringen ",
-      "te laten zien welke games ik allemaal heb om multiplayer te spelen.",
-      "\n\n",
-      "Met de filters kan worden gekeken welke games gespeeld kunnen worden met de middelen aanwezig op dat moment."
+      "Een website om mijn gamecollectie te tonen aan vrienden en om multiplayer sessies te plannen.\n\n",
+      "Gebruikers kunnen filters toepassen om te zien welke games speelbaar zijn met de op dat moment beschikbare middelen."
     ],
     "slug": "game-collection",
     "url": "https://github.com/jefvanzanten/game-collection",
@@ -22,11 +20,9 @@
     "id": 10,
     "name": "Task Manager",
     "description": [
-      "Een taak beheerder, waarmee je taken en projecten kunt organiseren, zoals bijv. Notion en Tick Tick. ",
-      "De projecten met taken worden ingeladen op basis van welk profiel er is ingelogd.",
-      "\n\n",
-      "De applicatie is gemaakt met Nextjs en TypeScript en voert alle database operaties server side uit. ",
-      "De data wordt opgeslagen in een lokale database en blijft bewaard na het afsluiten van de applicatie."
+      "Een taak- en projectbeheerder, vergelijkbaar met Notion/TickTick.\n\n",
+      "Projecten en taken zijn gebruikersspecifiek en worden ingeladen op basis van het ingelogde profiel.\n\n",
+      "Gebouwd met Next.js en TypeScript; alle database-operaties zijn server-side en de data wordt lokaal opgeslagen."
     ],
     "slug": "task-manager",
     "url": "https://github.com/jefvanzanten/task-manager-nextjs",
@@ -60,10 +56,9 @@
     "id": 8,
     "name": "Portfolio",
     "description": [
-      "Dit project is mijn persoonlijke website, waarbij elk openbare project op Github kort wordt toegelicht en van een link is voorzien.\n",
-      "Het is een simpele statische site die client side wordt gerendered. ",
-      "\n\n",
-      "De voornaamste reden waarom deze website bestaat is om een link te delen met daarin de relevante programmeertalen en/of tech stack en direct de door mij gemaakte projecten met deze criteria te laten zien."
+      "Mijn persoonlijke, statische, client-side gerenderde website.",
+      "Het toont een overzicht van mijn openbare GitHub-projecten met korte toelichtingen en links.",
+      "Hoofddoel is het delen van projecten gefilterd op relevante programmeertalen/tech stack."
     ],
     "slug": "portfolio",
     "url": "https://github.com/jefvanzanten/portfolio/",
@@ -105,11 +100,8 @@
     "id": 5,
     "name": "Todo client (mobile)",
     "description": [
-      "Dit is de mobile app die gebruik maakt van de REST API van de Todo server.",
-      "\n\n",
-      "Met deze app kan je todo's aanmaken en bewerken.\n",
-      "Zo kan je de titel veranderen en de status aanpassen naar voltooid. ",
-      "De app heeft ook een visuele scheiding tussen voltooide en niet-voltooide todo’s, waar tussen je kunt wisselen."
+      "De mobiele app die de Todo REST API gebruikt.",
+      "Hiermee kunnen gebruikers todo's aanmaken, bewerken (titel/status aanpassen) en de lijst visueel scheiden op basis van voltooide status."
     ],
     "slug": "todo-mobile",
     "url": "https://github.com/jefvanzanten/TodoRN",
@@ -143,10 +135,8 @@
     "id": 3,
     "name": "Schoolproject: OV app (backend)",
     "description": [
-      "Dit is de backend van de OV applicatie van het project van de 2e fase.",
-      "\n\n",
-      "Deze backend is de eerste kennismaking die ik had met het maken van een REST API.\n",
-      "Er zit hier geen POST in omdat we hier niet aan toe waren gekomen \n"
+      "De backend REST API voor de OV-applicatie uit de tweede projectfase.",
+      "Dit was mijn eerste kennismaking met het bouwen van een REST API (bevat geen POST functionaliteit)."
     ],
     "slug": "ov-app-backend",
     "url": "https://github.com/jefvanzanten/ADSD-Fase2-OV-app/tree/main/backend",
