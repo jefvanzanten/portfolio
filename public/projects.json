@@ -1,5 +1,23 @@
 [
   {
+    "id": 12,
+    "name": "Schoolproject: Fitness app",
+    "description": [
+      "Dit is het eerste schoolproject. Een console applicatie voor de gebruikers van een fitnessschool. ",
+      "Ik was tijdens dit project aan het inlezen over design patterns en had besloten voor dit project voor de state pattern te kiezen.",
+      "\n\n",
+      "Met deze applicatie was het de bedoeling dat de gebruiker zijn fitnessschema kon maken en aanpassen. Zo kon je bestaande lijstjes gebruiken of een nieuwe maken."
+    ],
+    "slug": "fitness-app-frontend",
+    "url": "https://github.com/jefvanzanten/ADSD-Fase1-Fitness-app",
+    "languages": ["Java"],
+    "images": [""],
+    "coverUrl": "/covers/hu_cover.png",
+    "category": "Desktop",
+    "lastUpdated": "2024-03-31",
+    "highlighted": true
+  },
+  {
     "id": 11,
     "name": "Game Collection",
     "description": [
@@ -20,7 +38,7 @@
     "id": 10,
     "name": "Task Manager",
     "description": [
-      "Een taak- en projectbeheerder, vergelijkbaar met Notion/TickTick.\n\n",
+      "Een taak- en projectbeheerder, vergelijkbaar met Notion/TickTick. ",
       "Projecten en taken zijn gebruikersspecifiek en worden ingeladen op basis van het ingelogde profiel.\n\n",
       "Gebouwd met Next.js en TypeScript; alle database-operaties zijn server-side en de data wordt lokaal opgeslagen."
     ],
@@ -56,8 +74,8 @@
     "id": 8,
     "name": "Portfolio",
     "description": [
-      "Mijn persoonlijke, statische, client-side gerenderde website.",
-      "Het toont een overzicht van mijn openbare GitHub-projecten met korte toelichtingen en links.",
+      "Mijn persoonlijke, statische, client-side gerenderde website. ",
+      "Het toont een overzicht van mijn openbare GitHub-projecten met korte toelichtingen en links. ",
       "Hoofddoel is het delen van projecten gefilterd op relevante programmeertalen/tech stack."
     ],
     "slug": "portfolio",
@@ -81,7 +99,6 @@
     "description": [
       "Dit project is mijn eerste zelfgemaakte server en draait nu live sinds mid mei. ",
       "Het is een REST API met een beveiligde POST endpoint",
-      "\n\n",
       "Hierdoor is het maken van todo's alleen mogelijk met het juiste account.",
       "\n\n",
       "De REST API wordt gebruikt voor de mobile app en de web client. "
@@ -100,7 +117,7 @@
     "id": 5,
     "name": "Todo client (mobile)",
     "description": [
-      "De mobiele app die de Todo REST API gebruikt.",
+      "De mobiele app die de Todo REST API gebruikt. ",
       "Hiermee kunnen gebruikers todo's aanmaken, bewerken (titel/status aanpassen) en de lijst visueel scheiden op basis van voltooide status."
     ],
     "slug": "todo-mobile",
@@ -135,7 +152,7 @@
     "id": 3,
     "name": "Schoolproject: OV app (backend)",
     "description": [
-      "De backend REST API voor de OV-applicatie uit de tweede projectfase.",
+      "De backend REST API voor de OV-applicatie uit de tweede projectfase. ",
       "Dit was mijn eerste kennismaking met het bouwen van een REST API (bevat geen POST functionaliteit)."
     ],
     "slug": "ov-app-backend",
@@ -152,8 +169,7 @@
     "id": 2,
     "name": "Schoolproject: OV app (frontend)",
     "description": [
-      "Dit is de frontend van de OV applicatie van het project van de 2e fase.",
-      "\n\n",
+      "Dit is de frontend van de OV applicatie van het project van de 2e fase. ",
       "Deze frontend is geoptimaliseerd voor blinde mensen en is volledig toegankelijk. "
     ],
     "slug": "ov-app-frontend",
@@ -170,9 +186,8 @@
     "id": 1,
     "name": "SupplementTracker",
     "description": [
-      "Dit is een van de eerste native Android apps die ik heb gemaakt.",
-      "\n\n",
-      "Een basic app waarmee je items in een lokale database kan opslaan en kan terugkijken per dag. "
+      "Dit is een van de eerste native Android apps die ik heb gemaakt. ",
+      "Een basis app waarmee je items in een lokale database kan opslaan en kan terugkijken per dag. "
     ],
     "slug": "supplement-tracker",
     "url": "https://github.com/jefvanzanten/Supplement-Tracker-Android-",
@@ -188,7 +203,7 @@
     "id": 0,
     "name": "Schoolproject: Picit",
     "description": [
-      "Dit is het eerste schoolproject waarbij we in teamverband werkten.\n",
+      "Dit is het eerste schoolproject waarbij we in teamverband werkten. ",
       "Gemaakt met Java en JavaFX.",
       "\n\n",
       "Met deze applicatie kan de gebruiker fruit in een winkelwagentje plaatsen en de bestelling afronden."
@@ -201,24 +216,6 @@
     "coverUrl": "/covers/hu_cover.png",
     "category": "Desktop",
     "lastUpdated": "2024-06-01",
-    "highlighted": false
-  },
-  {
-    "id": 12,
-    "name": "Schoolproject: Fitness app",
-    "description": [
-      "Dit is het eerste schoolproject. Een console applicatie voor de gebruikers van een fitnessschool. ",
-      "Ik was tijdens dit project aan het inlezen over design patterns en had besloten voor dit project voor de state pattern te kiezen.",
-      "\n\n",
-      "Met deze applicatie was het de bedoeling dat de gebruiker zijn fitnessschema kon maken en aanpassen. Zo kon je bestaande lijstjes gebruiken of een nieuwe maken."
-    ],
-    "slug": "fitness-app-frontend",
-    "url": "https://github.com/jefvanzanten/ADSD-Fase1-Fitness-app",
-    "languages": ["Java"],
-    "images": [""],
-    "coverUrl": "/covers/hu_cover.png",
-    "category": "Desktop",
-    "lastUpdated": "2024-03-31",
     "highlighted": false
   }
 ]

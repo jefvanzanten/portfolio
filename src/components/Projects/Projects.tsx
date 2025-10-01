@@ -5,12 +5,12 @@ import { Language, Library } from "../../types";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
-import GithubLink from "../GithubLink/GithubLink";
 import FilterTagBar from "../FilterTagBar/FilterTagBar";
-import ProjectCard from "../ProjectCard/ProjectCardNew";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
-export default function NewProjects() {
+export default function Projects() {
   const { loading, projects } = useProjects();
+  console.log(projects);
   const [isOpen, setIsOpen] = useState(false);
   const [searchParams, setSearchParams] = useSearchParams();
 

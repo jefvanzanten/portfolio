@@ -27,7 +27,7 @@ main {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(var(--card-width), var(--card-width))
+    minmax(var(--card-width), calc(var(--card-width) * 1.2))
   );
   gap: 2em;
   padding-bottom: 8vh;
