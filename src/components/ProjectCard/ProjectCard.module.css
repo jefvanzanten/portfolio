@@ -7,6 +7,8 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.5em;
   width: 100%;
+  max-width: 90vw;
+  flex-shrink: 0;
   /* padding: 1em; */
   padding-bottom: 1.5em;
   color: rgb(175, 175, 175);
@@ -72,6 +74,13 @@
   padding: 0.5em 0.7em;
 }
 
+@media screen and (min-width: 768px) {
+  .project-card-container {
+    width: 280px;
+    max-width: 280px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .project-card-container {
     min-height: 26vh;
@@ -80,5 +89,12 @@
   .title {
     font-size: 1rem;
     padding: 0.5em 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .project-card-container {
+    width: 320px;
+    max-width: 320px;
   }
 }

@@ -5,9 +5,8 @@ import { Language, Library } from "../../types";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterMenu from "../FilterMenu/FilterMenu";
 import { useSearchParams } from "react-router";
-import GithubLink from "../GithubLink/GithubLink";
 import FilterTagBar from "../FilterTagBar/FilterTagBar";
-import ProjectCard from "../ProjectCard/ProjectCardNew";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 export default function NewProjects() {
   const { loading, projects } = useProjects();
@@ -92,38 +91,44 @@ export default function NewProjects() {
   return (
     <main>
       <div className={styles["content-container"]}>
-        <section className={styles["filter-container"]}>
-          <FilterButton
-            isActive={isOpen}
-            handleClick={() => setIsOpen(!isOpen)}
-          />
-          {selectedLanguages.length > 0 || selectedLibraries.length > 0 ? (
-            <FilterTagBar
-              tags={[...selectedLanguages, ...selectedLibraries]}
-              onTagClick={(tag) => {
-                if (selectedLanguages.includes(tag as Language)) {
-                  toggleLanguage(tag as Language);
-                } else {
-                  toggleLibrary(tag as Library);
-                }
-              }}
+        <div className={styles["projects-wrapper"]}>
+          <section className={styles["filter-container"]}>
+            <FilterButton
+              isActive={isOpen}
+              handleClick={() => setIsOpen(!isOpen)}
             />
-          ) : null}
-        </section>
-        {isOpen && (
-          <FilterMenu
-            closemenu={() => setIsOpen(false)}
-            selectedLanguages={selectedLanguages}
-            selectedLibraries={selectedLibraries}
-            toggleLanguage={toggleLanguage}
-            toggleLibrary={toggleLibrary}
-          />
-        )}
-        <section className={styles["project-container"]}>
-          {filtered.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </section>
+            {selectedLanguages.length > 0 || selectedLibraries.length > 0 ? (
+              <FilterTagBar
+                tags={[...selectedLanguages, ...selectedLibraries]}
+                onTagClick={(tag) => {
+                  if (selectedLanguages.includes(tag as Language)) {
+                    toggleLanguage(tag as Language);
+                  } else {
+                    toggleLibrary(tag as Library);
+                  }
+                }}
+              />
+            ) : null}
+          </section>
+          <div className={styles["project-section"]}>
+            <section className={styles["project-container"]}>
+              <div className={styles["project-grid"]}>
+                {filtered.map((project) => (
+                  <ProjectCard key={project.id} project={project} />
+                ))}
+              </div>
+            </section>
+            {isOpen && (
+              <FilterMenu
+                closemenu={() => setIsOpen(false)}
+                selectedLanguages={selectedLanguages}
+                selectedLibraries={selectedLibraries}
+                toggleLanguage={toggleLanguage}
+                toggleLibrary={toggleLibrary}
+              />
+            )}
+          </div>
+        </div>
       </div>
     </main>
   );
