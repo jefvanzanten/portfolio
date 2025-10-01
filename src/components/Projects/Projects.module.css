@@ -15,6 +15,18 @@ main {
   /* border: 1px solid rgb(204, 204, 204); */
 }
 
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--card-width), calc(var(--card-width) * 1.2))
+  );
+  gap: 2em;
+  padding-bottom: 8vh;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
 .filter-container {
   display: flex;
   padding: 1em 0;

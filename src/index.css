@@ -12,6 +12,9 @@
   /* --bg-color: 
   --text-color:  */
   --card-width: 285px;
+  --container-max-width: 90%;
+  --project-container-width: calc(var(--card-width) * 3 + 4em);
+  --project-offset: calc((100vw - var(--project-area-width)) / 2);
 }
 
 html,

@@ -1,7 +1,7 @@
 .container {
   position: absolute;
-  top: 5em;
-  left: 12em;
+  top: 10em;
+  left: 0;
   width: 100%;
   min-height: 50vh;
   background: rgba(20, 20, 20, 0.9);
@@ -53,6 +53,7 @@
   .container {
     width: 40%;
     top: 8em;
-    left: 7em;
+    /* left: calc(var(--project-container-width) / 2); */
+    left: var(--project-offset);
   }
 }
