@@ -9,6 +9,20 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: purple;
+}
+
 @media screen and (min-width: 1024px) {
   .content {
     flex-direction: row;
