@@ -66,8 +66,8 @@
 @media (max-width: 600px) {
   .navcontainer {
     width: auto;
-    height: 4vh;
-    line-height: 4vh;
+    height: 6vh;
+    line-height: 6vh;
   }
 
   .nav {
