@@ -24,7 +24,10 @@
   width: inherit;
   height: 18vh;
   border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   cursor: pointer;
 }
 

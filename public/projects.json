@@ -48,7 +48,7 @@
     "coverUrl": "/covers/make24_cover.png",
     "category": "Frontend",
     "lastUpdated": "2025-07-24",
-    "highlighted": true
+    "highlighted": false
   },
   {
     "id": 8,
@@ -91,7 +91,7 @@
     "coverUrl": "/covers/express_custom_cover.png",
     "category": "Backend",
     "lastUpdated": "2025-05-26",
-    "highlighted": true
+    "highlighted": false
   },
   {
     "id": 5,
@@ -108,7 +108,7 @@
     "coverUrl": "/covers/todo_client_cover.png",
     "category": "Mobile",
     "lastUpdated": "2025-06-10",
-    "highlighted": true
+    "highlighted": false
   },
   {
     "id": 4,
@@ -215,6 +215,6 @@
     "coverUrl": "/covers/hu_cover.png",
     "category": "Desktop",
     "lastUpdated": "2024-03-31",
-    "highlighted": true
+    "highlighted": false
   }
 ]

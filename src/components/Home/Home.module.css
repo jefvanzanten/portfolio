@@ -1,9 +1,18 @@
-.home-container {
+/* main,
+.content-container {
+  border: 1px solid white;
+} */
+
+.main {
+  min-height: 90vh;
+}
+
+.content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  /* justify-content: center; */
+  justify-content: space-between;
   padding: 2em 0;
   box-sizing: border-box;
   min-width: 100%;
@@ -11,7 +20,15 @@
   z-index: 0;
   overflow: hidden;
   top: -10vh;
-  position: relative;
+  /* position: relative; */
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
 }
 
 .home-profile-pic {
@@ -29,7 +46,7 @@
 }
 
 .p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 0;
   color: rgba(255, 255, 255, 0.603);
   text-wrap: wrap;
@@ -50,6 +67,37 @@
   color: rgba(12, 217, 224, 0.767);
 }
 
+.featured-projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.featured-projects-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  --card-width: 300px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.line {
+  border-bottom: 1px solid white;
+  width: 21em;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -66,8 +114,12 @@
 }
 
 @media screen and (max-width: 1800px) {
-  .home-container {
+  .content-container {
     padding: 4em;
+  }
+
+  .introduction {
+    min-height: 20vh;
   }
 
   .home-profile-pic {
@@ -77,7 +129,7 @@
 
   .p {
     width: 80%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .h1 {
@@ -87,8 +139,12 @@
 }
 
 @media screen and (max-width: 800px) {
-  .home-container {
+  .content-container {
     padding: 2em 1em;
+  }
+
+  .introduction {
+    min-height: 20vh;
   }
 
   .home-profile-pic {
@@ -98,12 +154,16 @@
 
   .p {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.4rem;
   }
 
   .h1 {
     font-size: 1.8rem;
+  }
+
+  .featured-projects-container {
+    display: none;
   }
 
   .footer {
@@ -117,8 +177,9 @@
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-    position: relative;
-    top: 2em;
+    padding: 1em;
+    padding-top: 2em;
+    gap: 1em;
   }
 
   .home-tech {
