@@ -119,13 +119,11 @@ export default function Projects() {
             toggleLibrary={toggleLibrary}
           />
         )}
-        <div className={styles["project-box"]}>
-          <section className={styles["project-container"]}>
-            {filtered.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
-          </section>
-        </div>
+        <section className={styles["project-container"]}>
+          {filtered.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </section>
       </div>
     </main>
   );

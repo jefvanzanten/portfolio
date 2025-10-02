@@ -6,11 +6,11 @@
   /* border: 1px solid rgba(12, 217, 224, 0.767); */
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.5em;
-  width: 100%;
+  inline-size: var(--card-width);
   /* padding: 1em; */
   padding-bottom: 0.5em;
   color: rgb(175, 175, 175);
-  /* min-height: 32vh; */
+  min-height: 60vh;
 }
 
 .project-card-container:hover {
