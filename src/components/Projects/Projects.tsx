@@ -10,7 +10,6 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 export default function Projects() {
   const { loading, projects } = useProjects();
-  console.log(projects);
   const [isOpen, setIsOpen] = useState(false);
   const [searchParams, setSearchParams] = useSearchParams();
 

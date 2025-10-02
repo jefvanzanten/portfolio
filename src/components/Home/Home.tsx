@@ -66,7 +66,7 @@ export default function Home() {
         </section>
       </div>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         {data.map((item, index) => (
           <a
             href={item.url}
@@ -77,7 +77,7 @@ export default function Home() {
             {item.name}
           </a>
         ))}
-      </footer>
+      </footer> */}
     </main>
   );
 }

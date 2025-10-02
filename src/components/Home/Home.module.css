@@ -20,6 +20,7 @@
   z-index: 0;
   overflow: hidden;
   top: -10vh;
+  gap: 4em;
   /* position: relative; */
 }
 
@@ -119,7 +120,7 @@
   }
 
   .introduction {
-    min-height: 20vh;
+    min-height: 10vh;
   }
 
   .home-profile-pic {
