@@ -10,7 +10,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 export default function Projects() {
   const { loading, projects } = useProjects();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
   const [searchParams, setSearchParams] = useSearchParams();
 
   const getFiltersFromURL = () => {
@@ -93,8 +93,8 @@ export default function Projects() {
       <div className={styles["content-container"]}>
         <section className={styles["filter-container"]}>
           <FilterButton
-            isActive={isOpen}
-            handleClick={() => setIsOpen(!isOpen)}
+            isActive={isFilterMenuOpen}
+            handleClick={() => setIsFilterMenuOpen(!isFilterMenuOpen)}
           />
           {selectedLanguages.length > 0 || selectedLibraries.length > 0 ? (
             <FilterTagBar
@@ -109,9 +109,9 @@ export default function Projects() {
             />
           ) : null}
         </section>
-        {isOpen && (
+        {isFilterMenuOpen && (
           <FilterMenu
-            closemenu={() => setIsOpen(false)}
+            closemenu={() => setIsFilterMenuOpen(false)}
             selectedLanguages={selectedLanguages}
             selectedLibraries={selectedLibraries}
             toggleLanguage={toggleLanguage}
